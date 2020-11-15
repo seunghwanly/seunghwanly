@@ -14,5 +14,11 @@ Here are some ideas to get you started:
 - 😄 Pronouns: ...
 - ⚡ Fun fact: ...
 -->
+### My Github Stats:
 
-[![Anurag's github stats](https://github-readme-stats.vercel.app/api?username=seunghwanly)](https://github.com/anuraghazra/github-readme-stats)
+<a href="https://github.com/seunghwanly">
+<img align="center" alt="seunghwanly's Github Stats" src="https://github-readme-stats.codestackr.vercel.app/api?username=seunghwanly&show_icons=true&hide_border=true&count_private=true&include_all_commits=true" /></a>
+
+<a href="https://github.com/seunghwanly">
+  <img align="center" src="https://github-readme-stats.anuraghazra1.vercel.app/api/top-langs/?username=seunghwanly&layout=compact&langs_count=8" />
+</a>
