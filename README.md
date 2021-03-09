@@ -1,8 +1,8 @@
 ## Hi, I'm Seunghwan <img src="https://media.giphy.com/media/hvRJCLFzcasrR4ia7z/giphy.gif" width="25px">
   Studying Computer Science Engineering at <a href="dongguk.edu">Dongguk Univ.</a><br><br>
   <ol>
-    <ol>&nbsp;✏️&nbsp;&nbsp;Currently learning <b>js</b> and <b>Python</b></ol>
-    <ol>&nbsp;💁🏻‍♂️&nbsp;&nbsp;Currently working on <b>Hybrid-App</b> using <b>Flutter + Expressjs + MongoDB</b></ol>
+    <ol>&nbsp;✏️&nbsp;&nbsp;Currently learning <b>Node.js(REST API Server)</b> and <b>Python(ML)</b></ol>
+    <ol>&nbsp;🧑🏻‍💻&nbsp;&nbsp;Currently working on <b>Hybrid-App</b> using <b>Flutter + Node.js + Express.js + MongoDB</b></ol>
     <ol>&nbsp;😎&nbsp;&nbsp;Likes <b>Drawing</b></ol>
   </ol>
   
@@ -24,6 +24,7 @@
 <img src='https://img.shields.io/badge/Flutter-54C5F8?style=for-the-badge&logo=flutter&logoColor=white&logoWidth=40'/>
 <img src='https://img.shields.io/badge/Node%20js-68A063?style=for-the-badge&logo=Node.js&logoColor=white&logoWidth=40'/>
 <img src='https://img.shields.io/badge/Nodemon-76DO4B?style=for-the-badge&logo=Nodemon&logoColor=white&logoWidth=40'/>
+  <img src='https://img.shields.io/badge/Firebase-FFCA28?style=for-the-badge&logo=Firebase&logoColor=white&logoWidth=40'/>
 </p>
 
 <h2 align='center'>'ve Used</h2>
@@ -40,6 +41,13 @@
 <img src='https://img.shields.io/badge/Bootstrap-7952B3?style=for-the-badge&logo=Bootstrap&logoColor=white&logoWidth=40'/>
 <img src='https://img.shields.io/badge/Vue.js-4FC08D?style=for-the-badge&logo=Vue.js&logoColor=white&logoWidth=40'/>
 <img src='https://img.shields.io/badge/Express%20js-black?style=for-the-badge&logo=Express&logoColor=white&logoWidth=40'/>
+</p>
+<h3 align='center'>Databases</h3>
+<p align='center'>
+<img src='https://img.shields.io/badge/MySQL-4479A1?style=for-the-badge&logo=MySQL&logoColor=white&logoWidth=40'/>
+<img src='https://img.shields.io/badge/Oracle-F80000?style=for-the-badge&logo=Oracle&logoColor=white&logoWidth=40'/>
+<img src='https://img.shields.io/badge/SQLite-003B57?style=for-the-badge&logo=SQLite&logoColor=white&logoWidth=40'/>
+<img src='https://img.shields.io/badge/MongoDB-47A248?style=for-the-badge&logo=MongoDB&logoColor=white&logoWidth=40'/>
 </p>
 <h3 align='center'>Tools</h3>
 <p align='center'>
