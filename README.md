@@ -6,7 +6,7 @@
 >> Posting on [**velog.io**](https://velog.io/@seunghwanly)
 
 ### Working on 👨‍💻
-- **Node.js**, **RESTful API Server** using 3-Layer Structure
+- **Node.js + Express.js + MongoDB**, **RESTful API Server** using [3 Layer Architecture](https://github.com/santiq/bulletproof-nodejs)
 - **Image Text-Recognition**, using [**clovaai**](https://github.com/clovaai/deep-text-recognition-benchmark)
 - **Flutter Web(2.0)**, building Introductroy Web Page
 
@@ -22,6 +22,8 @@
 <img src='https://img.shields.io/badge/Nodemon-76DO4B?style=for-the-badge&logo=Nodemon&logoColor=white&logoWidth=40'/>
   <img src='https://img.shields.io/badge/Firebase-FFCA28?style=for-the-badge&logo=Firebase&logoColor=white&logoWidth=40'/>
 </p>
+
+---
 
 ### 've used
 #### Programming Languages
