@@ -6,7 +6,7 @@
 	            animation: bg-pan-top 10s cubic-bezier(0.550, 0.085, 0.680, 0.530) infinite alternate both;
             }
     
-            .text-blur-out {
+            .tracking-in-expand {
                 -webkit-animation: tracking-in-expand 2s cubic-bezier(0.215, 0.610, 0.355, 1.000) infinite alternate both;
 	            animation: tracking-in-expand 2s cubic-bezier(0.215, 0.610, 0.355, 1.000) infinite alternate both;
                 font: bold 50px Verdana, Helvetica, Arial, sans-serif;
@@ -20,7 +20,7 @@
             * w: http://animista.net, t: @cssanimista
             * ---------------------------------------------- */
            
-           @-webkit-keyframes text-blur-out {
+           @-webkit-keyframes tracking-in-expand {
             0% {
                 letter-spacing: -0.5em;
                 opacity: 0;
@@ -32,7 +32,7 @@
                 opacity: 1;
               }
            }
-           @keyframes text-blur-out {
+           @keyframes tracking-in-expand {
             0% {
                 letter-spacing: -0.5em;
                 opacity: 0;
@@ -71,6 +71,6 @@
             }
         </style>
     </defs>
-    <text x="25%" y="50%" class="text-blur-out">Seunghwan Lee</text>
-    <text x="25%" y="60%" class="text-blur-out" style="font-size:36px; font-weight:normal">Flutter Developer</text>
+    <text x="25%" y="50%" class="tracking-in-expand">Seunghwan Lee</text>
+    <text x="25%" y="60%" class="tracking-in-expand" style="font-size:36px; font-weight:normal">Flutter Developer</text>
 </svg>
