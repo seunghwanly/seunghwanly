@@ -1,6 +1,4 @@
-# About @seunghwanly
-Hi, I'm cadidate for bachelor of **Computer Science Engineering** at [Dongguk University](dongguk.edu)
-> Flutter Web(2.0), personal web page [GO TO LINK👉](https://seunghwanly.github.io/#/)
+![nameImg](https://github.com/seunghwanly/seunghwanly/blob/main/name.svg)
 
 ## Interested in ⭐️
 - **Flutter**, using Cross-Platform to build Applications
