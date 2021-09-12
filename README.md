@@ -5,7 +5,6 @@
 - **Kotlin**, building Android Application
 
 ## Working on 👨‍💻
-- Currently working on Flutter Application in 'Corp-VIA'
 - Currently studying **Kotlin**
 - **Image Text-Recognition**, using darknet(Yolov4) and make auto-generating tools as well
 
