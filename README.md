@@ -2,10 +2,10 @@
 
 ## Interested in ⭐️
 - **Flutter**, using Cross-Platform to build Applications
-- **Kotlin**, building Android Application
+- **Swift**, building iOS Application
 
 ## Working on 👨‍💻
-- Currently studying **Kotlin**
+- Currently learning **Swift**
 - **Image Text-Recognition**, using darknet(Yolov4) and make auto-generating tools as well
 
 ## Favorites 😀
