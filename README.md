@@ -1,14 +1,14 @@
 ![nameImg](https://github.com/seunghwanly/seunghwanly/blob/main/name.svg)
 
-## Interested in ⭐️
+## Interested in
 - **Flutter**, using Cross-Platform to build Applications
 - **Swift**, building iOS Application
 
 ## Working on 👨‍💻
+- Building **Flutter** library things relevant with UI
 - Currently learning **Swift**
-- **Image Text-Recognition**, using darknet(Yolov4) and make auto-generating tools as well
 
-## Favorites 😀
+## Prefer
 <p>
 <img src='https://img.shields.io/badge/Flutter-FFFFFF?style=flat&logo=flutter&logoColor=blue&logoWidth=20'/>
 <img src='https://img.shields.io/badge/Dart-0175C2?style=flat&logo=Dart&logoColor=white&logoWidth=20'/>
