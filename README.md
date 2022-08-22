@@ -1,12 +1,10 @@
-![nameImg](https://github.com/seunghwanly/seunghwanly/blob/main/name.svg)
+<img src="https://github.com/seunghwanly/seunghwanly/blob/main/name.svg" width="50%" align="right"/>
 
-## Interested in
-- **Flutter**, using Cross-Platform to build Applications
-- **Swift**, building iOS Application
-
-## Working on 👨‍💻
-- Building **Flutter** library things relevant with UI
-- Currently learning **Swift**
+## As a Flutter Developer 🧑🏻‍💻
+- Interested in creating `animated widgets` with Flutter
+- Trying to find the optimized Design for Flutter, using `BLoC`, `Getx`, `Provider` and so on
+- Developing a lecture for Flutter beginner
+- Implements a Native code (`Kotlin`/`Swift`) for the better performance
 
 ## Prefer
 <p>
