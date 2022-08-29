@@ -18,8 +18,11 @@
 
 ---
 
-[![Portfolio Badge](http://img.shields.io/badge/Portfolio-blue?style=flat&logo=github&link=https://seunghwanly.github.io/#/)](https://seunghwanly.github.io/#/)
-[![Gmail Badge](https://img.shields.io/badge/Gmail-d14836?style=flat&logo=Gmail&logoColor=white&link=mailto:seunghwanly@gmail.com)](mailto:seunghwanly@gmail.com)
-[![velog Badge](https://img.shields.io/badge/velog-4FC08D?style=flat&logo=Velog&logoColor=white&link=https://velog.io/@seunghwanly)](https://velog.io/@seunghwanly)
 [![LinkedIn Badge](https://img.shields.io/badge/LinkedIn-0A66C2?style=flat&logo=LinkedIn&logoColor=white&link=https://www.linkedin.com/in/seunghwanly/)](https://www.linkedin.com/in/seunghwanly/)
+[![velog Badge](https://img.shields.io/badge/velog-4FC08D?style=flat&logo=Velog&logoColor=white&link=https://velog.io/@seunghwanly)](https://velog.io/@seunghwanly)
+[![Gmail Badge](https://img.shields.io/badge/Gmail-d14836?style=flat&logo=Gmail&logoColor=white&link=mailto:seunghwanly@gmail.com)](mailto:seunghwanly@gmail.com)
+[![Portfolio Badge](http://img.shields.io/badge/Portfolio-blue?style=flat&logo=github&link=https://seunghwanly.github.io/#/)](https://seunghwanly.github.io/#/)
+
+
+
 
