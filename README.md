@@ -1,10 +1,11 @@
 <img src="https://github.com/seunghwanly/seunghwanly/blob/main/name.svg" width="50%" align="right"/>
 
 ## As a Flutter Developer 🧑🏻‍💻
-- Interested in creating `animated widgets` with Flutter
-- Trying to find the optimized Design for Flutter, using `BLoC`, `Getx`, `Provider` and so on
-- Developing a lecture for Flutter beginner
+- Developed a lecture to learn Flutter for the beginners
+- Agonizing for the suitable Flutter's state management in the specific industry domain
 - Implements a Native code (`Kotlin`/`Swift`) for the better performance
+- Interested in creating `animated widgets` with Flutter
+
 
 ## Prefer
 <p>
