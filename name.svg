@@ -1,11 +1,11 @@
 <svg version="1.1" id="seunghwanly" xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink"
-    width="100%" height="100%" viewBox="0 0 128 128" xml:space="preserve">
+    viewBox="0 0 1024 512" xml:space="preserve">
 
     <defs>
         <style>
             .bg-top {
-                -webkit-animation: bg-top 7s cubic-bezier(0.550, 0.085, 0.680, 0.530) infinite alternate-reverse both;
-                animation: bg-top 7s cubic-bezier(0.550, 0.085, 0.680, 0.530) infinite alternate-reverse both;
+                -webkit-animation: bg-top 10s cubic-bezier(0.550, 0.085, 0.680, 0.530) infinite alternate-reverse both;
+                animation: bg-top 10s cubic-bezier(0.550, 0.085, 0.680, 0.530) infinite alternate-reverse both;
             }
 
             .bg-top-1 {
@@ -14,18 +14,28 @@
             }
 
             .bg-top-2 {
-                -webkit-animation: bg-top-2 5s cubic-bezier(0.550, 0.085, 0.680, 0.530) infinite alternate-reverse both;
-                animation: bg-top-2 5s cubic-bezier(0.550, 0.085, 0.680, 0.530) infinite alternate-reverse both;
+                -webkit-animation: bg-top-2 6s cubic-bezier(0.550, 0.085, 0.680, 0.530) infinite alternate-reverse both;
+                animation: bg-top-2 6s cubic-bezier(0.550, 0.085, 0.680, 0.530) infinite alternate-reverse both;
             }
 
             .swing-top {
-                -webkit-animation: swing-top 4s cubic-bezier(0.175, 0.885, 0.320, 1.275) infinite both;
-                animation: swing-top 4s cubic-bezier(0.175, 0.885, 0.320, 1.275) infinite both;
+                -webkit-animation: swing-top 3s cubic-bezier(0.175, 0.885, 0.320, 1.275) infinite both;
+                animation: swing-top 3s cubic-bezier(0.175, 0.885, 0.320, 1.275) infinite both;
+            }
+
+            .swing-top-1 {
+                -webkit-animation: swing-top-1 4s cubic-bezier(0.175, 0.885, 0.320, 1.275) infinite both;
+                animation: swing-top-1 4s cubic-bezier(0.175, 0.885, 0.320, 1.275) infinite both;
+            }
+
+            .swing-top-2 {
+                -webkit-animation: swing-top-2 5s cubic-bezier(0.175, 0.885, 0.320, 1.275) infinite both;
+                animation: swing-top-2 5s cubic-bezier(0.175, 0.885, 0.320, 1.275) infinite both;
             }
 
             text {
                 font-family: Arial, Helvetica, sans-serif;
-                font-size: 48px;
+                font-size: 32pt;
                 font-weight: 800;
                 text-anchor: middle;
                 text-align: center;
@@ -34,8 +44,8 @@
             }
 
             rect {
-                width: 98px;
-                height: 98px;
+                width: 100%;
+                height: 100%;
             }
 
             @-webkit-keyframes bg-top {
@@ -73,7 +83,7 @@
                 }
 
                 50% {
-                    fill: #f64f59;
+                    fill: #18E7CF;
                 }
 
                 100% {
@@ -88,7 +98,7 @@
                 }
 
                 50% {
-                    fill: #f64f59;
+                    fill: #18E7CF;
                 }
 
                 100% {
@@ -102,7 +112,7 @@
                 }
 
                 50% {
-                    fill: #12c2e9;
+                    fill: #3578DB;
 
                 }
 
@@ -118,7 +128,7 @@
                 }
 
                 50% {
-                    fill: #12c2e9;
+                    fill: #3578DB;
 
                 }
 
@@ -179,67 +189,211 @@
                     opacity: 0;
                 }
             }
+
+            @-webkit-keyframes swing-top-1 {
+                0% {
+                    -webkit-transform: rotateX(-100deg);
+                    transform: rotateX(-100deg);
+                    -webkit-transform-origin: top;
+                    transform-origin: top;
+                    opacity: 0;
+                }
+
+                50% {
+                    -webkit-transform: rotateX(0deg);
+                    transform: rotateX(0deg);
+                    -webkit-transform-origin: top;
+                    transform-origin: top;
+                    opacity: 1;
+                }
+
+                100% {
+                    -webkit-transform: rotateX(-100deg);
+                    transform: rotateX(-100deg);
+                    -webkit-transform-origin: top;
+                    transform-origin: top;
+                    opacity: 0;
+                }
+            }
+
+            @keyframes swing-top-1 {
+                0% {
+                    -webkit-transform: rotateX(-100deg);
+                    transform: rotateX(-100deg);
+                    -webkit-transform-origin: top;
+                    transform-origin: top;
+                    opacity: 0;
+                }
+
+                50% {
+                    -webkit-transform: rotateX(0deg);
+                    transform: rotateX(0deg);
+                    -webkit-transform-origin: top;
+                    transform-origin: top;
+                    opacity: 1;
+                }
+
+                100% {
+                    -webkit-transform: rotateX(-100deg);
+                    transform: rotateX(-100deg);
+                    -webkit-transform-origin: top;
+                    transform-origin: top;
+                    opacity: 0;
+                }
+            }
+
+            @-webkit-keyframes swing-top-2 {
+                0% {
+                    -webkit-transform: rotateX(-100deg);
+                    transform: rotateX(-100deg);
+                    -webkit-transform-origin: top;
+                    transform-origin: top;
+                    opacity: 0;
+                }
+
+                50% {
+                    -webkit-transform: rotateX(0deg);
+                    transform: rotateX(0deg);
+                    -webkit-transform-origin: top;
+                    transform-origin: top;
+                    opacity: 1;
+                }
+
+                100% {
+                    -webkit-transform: rotateX(-100deg);
+                    transform: rotateX(-100deg);
+                    -webkit-transform-origin: top;
+                    transform-origin: top;
+                    opacity: 0;
+                }
+            }
+
+            @keyframes swing-top-2 {
+                0% {
+                    -webkit-transform: rotateX(-100deg);
+                    transform: rotateX(-100deg);
+                    -webkit-transform-origin: top;
+                    transform-origin: top;
+                    opacity: 0;
+                }
+
+                50% {
+                    -webkit-transform: rotateX(0deg);
+                    transform: rotateX(0deg);
+                    -webkit-transform-origin: top;
+                    transform-origin: top;
+                    opacity: 1;
+                }
+
+                100% {
+                    -webkit-transform: rotateX(-100deg);
+                    transform: rotateX(-100deg);
+                    -webkit-transform-origin: top;
+                    transform-origin: top;
+                    opacity: 0;
+                }
+            }
         </style>
     </defs>
 
-
-    <svg x="5%" y="5%" width="10%" height="10%" viewBox="0 0 98 98" class="bg-top">
+    <!-- S E U N G -->
+    <svg x="5%" y="5%" width="24%" height="24%" viewBox="0 0 98 98" class="bg-top">
         <rect x="0" y="0" class="swing-top" rx="24" ry="24" />
         <text x="50%" y="50%" class="swing-top">
             S
         </text>
     </svg>
 
-    <svg x="16%" y="5%" width="10%" height="10%" viewBox="0 0 98 98" class="bg-top-1">
-        <rect x="0" y="0" class="swing-top" width="98" height="98" rx="24" ry="24" />
+    <svg x="18%" y="5%" width="24%" height="24%" viewBox="0 0 98 98" class="bg-top-1">
+        <rect x="0" y="0" class="swing-top" rx="24" ry="24" />
         <text x="50%" y="50%" class="swing-top">
             E
         </text>
     </svg>
 
-    <svg x="27%" y="5%" width="10%" height="10%" viewBox="0 0 98 98" class="bg-top-2">
-        <rect x="0" y="0" class="swing-top bg-top" width="98" height="98" rx="24" ry="24" />
+    <svg x="31%" y="5%" width="24%" height="24%" viewBox="0 0 98 98" class="bg-top-2">
+        <rect x="0" y="0" class="swing-top" rx="24" ry="24" />
         <text x="50%" y="50%" class="swing-top ">
             U
         </text>
     </svg>
 
-    <svg x="38%" y="5%" width="10%" height="10%" viewBox="0 0 98 98" class="bg-top">
-        <rect x="0" y="0" class="swing-top bg-top" width="98" height="98" rx="24" ry="24" />
+    <svg x="44%" y="5%" width="24%" height="24%" viewBox="0 0 98 98" class="bg-top">
+        <rect x="0" y="0" class="swing-top" rx="24" ry="24" />
         <text x="50%" y="50%" class="swing-top ">
             N
         </text>
     </svg>
 
-    <svg x="49%" y="5%" width="10%" height="10%" viewBox="0 0 98 98" class="bg-top-1">
-        <rect x="0" y="0" class="swing-top" width="98" height="98" rx="24" ry="24" />
-        <text x="50%" y="50%" class="swing-top ">
+    <svg x="57%" y="5%" width="24%" height="24%" viewBox="0 0 98 98" class="bg-top-1">
+        <rect x="0" y="0" class="swing-top" rx="24" ry="24" />
+        <text x="50%" y="50%" class="swing-top">
             G
         </text>
     </svg>
+    <svg x="70%" y="5%" width="24%" height="24%" viewBox="0 0 98 98" class="bg-top">
+        <rect x="0" y="0" rx="24" ry="24" />
+    </svg>
+    <!-- H W A N -->
+    <svg x="5%" y="32%" width="24%" height="24%" viewBox="0 0 98 98" class="bg-top-1">
+        <rect x="0" y="0" rx="24" ry="24" />
+    </svg>
 
-    <svg x="16%" y="16%" width="10%" height="10%" viewBox="0 0 98 98" class="bg-top-2">
-        <rect x="0" y="0" class="swing-top" width="98" height="98" rx="24" ry="24" />
-        <text x="50%" y="50%" class="swing-top ">
+    <svg x="18%" y="32%" width="24%" height="24%" viewBox="0 0 98 98" class="bg-top-2">
+        <rect x="0" y="0" class="swing-top-1" rx="24" ry="24" />
+        <text x="50%" y="50%" class="swing-top-1 ">
             H
         </text>
     </svg>
-    <svg x="27%" y="16%" width="10%" height="10%" viewBox="0 0 98 98" class="bg-top">
-        <rect x="0" y="0" class="swing-top" width="98" height="98" rx="24" ry="24" />
-        <text x="50%" y="50%" class="swing-top ">
+    <svg x="31%" y="32%" width="24%" height="24%" viewBox="0 0 98 98" class="bg-top-1">
+        <rect x="0" y="0" class="swing-top-1" rx="24" ry="24" />
+        <text x="50%" y="50%" class="swing-top-1 ">
             W
         </text>
     </svg>
-    <svg x="38%" y="16%" width="10%" height="10%" viewBox="0 0 98 98" class="bg-top-1">
-        <rect x="0" y="0" class="swing-top" width="98" height="98" rx="24" ry="24" />
-        <text x="50%" y="50%" class="swing-top ">
+    <svg x="44%" y="32%" width="24%" height="24%" viewBox="0 0 98 98" class="bg-top">
+        <rect x="0" y="0" class="swing-top-1" rx="24" ry="24" />
+        <text x="50%" y="50%" class="swing-top-1 ">
             A
         </text>
     </svg>
-    <svg x="49%" y="16%" width="10%" height="10%" viewBox="0 0 98 98" class="bg-top-2">
-        <rect x="0" y="0" class="swing-top" width="98" height="98" rx="24" ry="24" />
-        <text x="50%" y="50%" class="swing-top ">
+    <svg x="57%" y="32%" width="24%" height="24%" viewBox="0 0 98 98" class="bg-top-1">
+        <rect x="0" y="0" class="swing-top-1" rx="24" ry="24" />
+        <text x="50%" y="50%" class="swing-top-1">
             N
         </text>
     </svg>
+    <svg x="70%" y="32%" width="24%" height="24%" viewBox="0 0 98 98" class="bg-top-2">
+        <rect x="0" y="0" rx="24" ry="24" />
+    </svg>
+    <!-- L E E -->
+    <svg x="5%" y="59%" width="24%" height="24%" viewBox="0 0 98 98" class="bg-top">
+        <rect x="0" y="0" rx="24" ry="24" />
+    </svg>
+    <svg x="18%" y="59%" width="24%" height="24%" viewBox="0 0 98 98" class="bg-top-2">
+        <rect x="0" y="0" rx="24" ry="24" />
+    </svg>
+    <svg x="31%" y="59%" width="24%" height="24%" viewBox="0 0 98 98" class="bg-top">
+        <rect x="0" y="0" class="swing-top-2" rx="24" ry="24" />
+        <text x="50%" y="50%" class="swing-top-2">
+            L
+        </text>
+    </svg>
+    <svg x="44%" y="59%" width="24%" height="24%" viewBox="0 0 98 98" class="bg-top-1">
+        <rect x="0" y="0" class="swing-top-2" rx="24" ry="24" />
+        <text x="50%" y="50%" class="swing-top-2">
+            E
+        </text>
+    </svg>
+    <svg x="57%" y="59%" width="24%" height="24%" viewBox="0 0 98 98" class="bg-top-2">
+        <rect x="0" y="0" class="swing-top-2" rx="24" ry="24" />
+        <text x="50%" y="50%" class="swing-top-2">
+            E
+        </text>
+    </svg>
+    <svg x="70%" y="59%" width="24%" height="24%" viewBox="0 0 98 98" class="bg-top">
+        <rect x="0" y="0" rx="24" ry="24" />
+    </svg>
+
+
 </svg>
