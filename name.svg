@@ -35,7 +35,7 @@
 
             text {
                 font-family: Arial, Helvetica, sans-serif;
-                font-size: 32pt;
+                font-size: 320%;
                 font-weight: 800;
                 text-anchor: middle;
                 text-align: center;
@@ -297,101 +297,101 @@
     </defs>
 
     <!-- S E U N G -->
-    <svg x="5%" y="5%" width="24%" height="24%" viewBox="0 0 98 98" class="bg-top">
+    <svg x="8%" y="8%" width="24%" height="24%" viewBox="0 0 98 98" class="bg-top">
         <rect x="0" y="0" class="swing-top" rx="24" ry="24" />
         <text x="50%" y="50%" class="swing-top">
             S
         </text>
     </svg>
 
-    <svg x="18%" y="5%" width="24%" height="24%" viewBox="0 0 98 98" class="bg-top-1">
+    <svg x="21%" y="8%" width="24%" height="24%" viewBox="0 0 98 98" class="bg-top-1">
         <rect x="0" y="0" class="swing-top" rx="24" ry="24" />
         <text x="50%" y="50%" class="swing-top">
             E
         </text>
     </svg>
 
-    <svg x="31%" y="5%" width="24%" height="24%" viewBox="0 0 98 98" class="bg-top-2">
+    <svg x="34%" y="8%" width="24%" height="24%" viewBox="0 0 98 98" class="bg-top-2">
         <rect x="0" y="0" class="swing-top" rx="24" ry="24" />
         <text x="50%" y="50%" class="swing-top ">
             U
         </text>
     </svg>
 
-    <svg x="44%" y="5%" width="24%" height="24%" viewBox="0 0 98 98" class="bg-top">
+    <svg x="47%" y="8%" width="24%" height="24%" viewBox="0 0 98 98" class="bg-top">
         <rect x="0" y="0" class="swing-top" rx="24" ry="24" />
         <text x="50%" y="50%" class="swing-top ">
             N
         </text>
     </svg>
 
-    <svg x="57%" y="5%" width="24%" height="24%" viewBox="0 0 98 98" class="bg-top-1">
+    <svg x="60%" y="8%" width="24%" height="24%" viewBox="0 0 98 98" class="bg-top-1">
         <rect x="0" y="0" class="swing-top" rx="24" ry="24" />
         <text x="50%" y="50%" class="swing-top">
             G
         </text>
     </svg>
-    <svg x="70%" y="5%" width="24%" height="24%" viewBox="0 0 98 98" class="bg-top">
+    <svg x="73%" y="8%" width="24%" height="24%" viewBox="0 0 98 98" class="bg-top">
         <rect x="0" y="0" rx="24" ry="24" />
     </svg>
     <!-- H W A N -->
-    <svg x="5%" y="32%" width="24%" height="24%" viewBox="0 0 98 98" class="bg-top-1">
+    <svg x="8%" y="35%" width="24%" height="24%" viewBox="0 0 98 98" class="bg-top-1">
         <rect x="0" y="0" rx="24" ry="24" />
     </svg>
 
-    <svg x="18%" y="32%" width="24%" height="24%" viewBox="0 0 98 98" class="bg-top-2">
+    <svg x="21%" y="35%" width="24%" height="24%" viewBox="0 0 98 98" class="bg-top-2">
         <rect x="0" y="0" class="swing-top-1" rx="24" ry="24" />
         <text x="50%" y="50%" class="swing-top-1 ">
             H
         </text>
     </svg>
-    <svg x="31%" y="32%" width="24%" height="24%" viewBox="0 0 98 98" class="bg-top-1">
+    <svg x="34%" y="35%" width="24%" height="24%" viewBox="0 0 98 98" class="bg-top-1">
         <rect x="0" y="0" class="swing-top-1" rx="24" ry="24" />
         <text x="50%" y="50%" class="swing-top-1 ">
             W
         </text>
     </svg>
-    <svg x="44%" y="32%" width="24%" height="24%" viewBox="0 0 98 98" class="bg-top">
+    <svg x="47%" y="35%" width="24%" height="24%" viewBox="0 0 98 98" class="bg-top">
         <rect x="0" y="0" class="swing-top-1" rx="24" ry="24" />
         <text x="50%" y="50%" class="swing-top-1 ">
             A
         </text>
     </svg>
-    <svg x="57%" y="32%" width="24%" height="24%" viewBox="0 0 98 98" class="bg-top-1">
+    <svg x="60%" y="35%" width="24%" height="24%" viewBox="0 0 98 98" class="bg-top-1">
         <rect x="0" y="0" class="swing-top-1" rx="24" ry="24" />
         <text x="50%" y="50%" class="swing-top-1">
             N
         </text>
     </svg>
-    <svg x="70%" y="32%" width="24%" height="24%" viewBox="0 0 98 98" class="bg-top-2">
+    <svg x="73%" y="35%" width="24%" height="24%" viewBox="0 0 98 98" class="bg-top-2">
         <rect x="0" y="0" rx="24" ry="24" />
     </svg>
     <!-- L E E -->
-    <svg x="5%" y="59%" width="24%" height="24%" viewBox="0 0 98 98" class="bg-top">
+    <svg x="8%" y="62%" width="24%" height="24%" viewBox="0 0 98 98" class="bg-top">
         <rect x="0" y="0" rx="24" ry="24" />
     </svg>
-    <svg x="18%" y="59%" width="24%" height="24%" viewBox="0 0 98 98" class="bg-top-2">
+    <svg x="21%" y="62%" width="24%" height="24%" viewBox="0 0 98 98" class="bg-top-2">
         <rect x="0" y="0" rx="24" ry="24" />
     </svg>
-    <svg x="31%" y="59%" width="24%" height="24%" viewBox="0 0 98 98" class="bg-top">
+    <svg x="34%" y="62%" width="24%" height="24%" viewBox="0 0 98 98" class="bg-top">
         <rect x="0" y="0" class="swing-top-2" rx="24" ry="24" />
         <text x="50%" y="50%" class="swing-top-2">
             L
         </text>
     </svg>
-    <svg x="44%" y="59%" width="24%" height="24%" viewBox="0 0 98 98" class="bg-top-1">
+    <svg x="47%" y="62%" width="24%" height="24%" viewBox="0 0 98 98" class="bg-top-1">
         <rect x="0" y="0" class="swing-top-2" rx="24" ry="24" />
         <text x="50%" y="50%" class="swing-top-2">
             E
         </text>
     </svg>
-    <svg x="57%" y="59%" width="24%" height="24%" viewBox="0 0 98 98" class="bg-top-2">
+    <svg x="60%" y="62%" width="24%" height="24%" viewBox="0 0 98 98" class="bg-top-2">
         <rect x="0" y="0" class="swing-top-2" rx="24" ry="24" />
         <text x="50%" y="50%" class="swing-top-2">
             E
         </text>
     </svg>
-    <svg x="70%" y="59%" width="24%" height="24%" viewBox="0 0 98 98" class="bg-top">
+    <svg x="73%" y="62%" width="24%" height="24%" viewBox="0 0 98 98" class="bg-top">
         <rect x="0" y="0" rx="24" ry="24" />
     </svg>
 
