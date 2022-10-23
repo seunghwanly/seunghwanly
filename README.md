@@ -1,6 +1,8 @@
-<img src="https://github.com/seunghwanly/seunghwanly/blob/main/name.svg" width="50%" align="right"/>
 
 ## As a Flutter Developer 🧑🏻‍💻
+<img src="https://github.com/seunghwanly/seunghwanly/blob/main/name.svg" width="50%" align="right"/>
+
+
 - Developed a lecture to learn Flutter for the beginners
 - Agonizing for the suitable Flutter's state management in the specific industry domain
 - Implements a Native code (`Kotlin`/`Swift`) for the better performance
