@@ -6,8 +6,8 @@
       <h2> As a Flutter Developer 🧑🏻‍💻 </h2>
         <li> Developed a lecture to learn Flutter for the beginners </li>
         <li> Agonizing for the suitable Flutter's state management in the specific industry domain </li>
-        <li> Implements a Native code (`Kotlin`/`Swift`) for the better performance </li>
-        <li> Interested in creating `animated widgets` with Flutter </li>
+        <li> Implements a Native code (<code>Kotlin</code>/<code>Swift</code>) for the better performance </li>
+        <li> Interested in creating <code>animated widgets</code> with Flutter </li>
     </p>
   </div>
 </div>
