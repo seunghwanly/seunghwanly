@@ -1,399 +1,101 @@
-<svg version="1.1" id="seunghwanly" xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink"
-    viewBox="0 0 1024 512" xml:space="preserve">
-
+<svg width="600" height="150" viewBox="0 0 600 150" xmlns="http://www.w3.org/2000/svg">
     <defs>
         <style>
-            .bg-top {
-                -webkit-animation: bg-top 10s cubic-bezier(0.550, 0.085, 0.680, 0.530) infinite alternate-reverse both;
-                animation: bg-top 10s cubic-bezier(0.550, 0.085, 0.680, 0.530) infinite alternate-reverse both;
+            .matrix-char {
+                font-family: 'Courier New', monospace;
+                font-size: 14px;
+                fill: #00ff00;
+                opacity: 0.3;
             }
 
-            .bg-top-1 {
-                -webkit-animation: bg-top-1 3s cubic-bezier(0.550, 0.085, 0.680, 0.530) infinite alternate-reverse both;
-                animation: bg-top-1 3s cubic-bezier(0.550, 0.085, 0.680, 0.530) infinite alternate-reverse both;
+            .name-char {
+                font-family: 'Courier New', monospace;
+                font-size: 24px;
+                font-weight: bold;
+                fill: #00ff00;
+                opacity: 0;
             }
 
-            .bg-top-2 {
-                -webkit-animation: bg-top-2 6s cubic-bezier(0.550, 0.085, 0.680, 0.530) infinite alternate-reverse both;
-                animation: bg-top-2 6s cubic-bezier(0.550, 0.085, 0.680, 0.530) infinite alternate-reverse both;
+            .subtitle {
+                font-family: 'Courier New', monospace;
+                font-size: 12px;
+                fill: #00ff00;
+                opacity: 0;
             }
 
-            .swing-top {
-                -webkit-animation: swing-top 3s cubic-bezier(0.175, 0.885, 0.320, 1.275) infinite both;
-                animation: swing-top 3s cubic-bezier(0.175, 0.885, 0.320, 1.275) infinite both;
+            .matrix-fall {
+                animation: fall 2s linear infinite;
             }
 
-            .swing-top-1 {
-                -webkit-animation: swing-top-1 4s cubic-bezier(0.175, 0.885, 0.320, 1.275) infinite both;
-                animation: swing-top-1 4s cubic-bezier(0.175, 0.885, 0.320, 1.275) infinite both;
+            .fade-in {
+                animation: fadeIn 2s ease-in-out forwards;
             }
 
-            .swing-top-2 {
-                -webkit-animation: swing-top-2 5s cubic-bezier(0.175, 0.885, 0.320, 1.275) infinite both;
-                animation: swing-top-2 5s cubic-bezier(0.175, 0.885, 0.320, 1.275) infinite both;
+            .fade-in-delayed {
+                animation: fadeIn 2s ease-in-out forwards 1s;
             }
 
-            text {
-                font-family: Arial, Helvetica, sans-serif;
-                font-size: 320%;
-                font-weight: 800;
-                text-anchor: middle;
-                text-align: center;
-                fill: white;
-                dominant-baseline: middle;
-            }
-
-            rect {
-                width: 100%;
-                height: 100%;
-            }
-
-            @-webkit-keyframes bg-top {
+            @keyframes fall {
                 0% {
-                    fill: #12c2e9;
+                    transform: translateY(-20px);
+                    opacity: 0.8;
                 }
 
                 50% {
-                    fill: #c471ed;
+                    opacity: 0.4;
                 }
 
                 100% {
-                    fill: #f64f59;
+                    transform: translateY(170px);
+                    opacity: 0;
                 }
             }
 
-            @keyframes bg-top {
+            @keyframes fadeIn {
                 0% {
-                    fill: #12c2e9;
-                }
-
-                50% {
-                    fill: #c471ed;
-                }
-
-                100% {
-                    fill: #f64f59;
-                }
-            }
-
-            @-webkit-keyframes bg-top-1 {
-                0% {
-
-                    fill: #c471ed;
-                }
-
-                50% {
-                    fill: #18E7CF;
-                }
-
-                100% {
-                    fill: #12c2e9;
-                }
-            }
-
-            @keyframes bg-top-1 {
-                0% {
-
-                    fill: #c471ed;
-                }
-
-                50% {
-                    fill: #18E7CF;
-                }
-
-                100% {
-                    fill: #12c2e9;
-                }
-            }
-
-            @-webkit-keyframes bg-top-2 {
-                0% {
-                    fill: #f64f59;
-                }
-
-                50% {
-                    fill: #3578DB;
-
-                }
-
-                100% {
-                    fill: #c471ed;
-
-                }
-            }
-
-            @keyframes bg-top-2 {
-                0% {
-                    fill: #f64f59;
-                }
-
-                50% {
-                    fill: #3578DB;
-
-                }
-
-                100% {
-                    fill: #c471ed;
-
-                }
-            }
-
-            @-webkit-keyframes swing-top {
-                0% {
-                    -webkit-transform: rotateX(-100deg);
-                    transform: rotateX(-100deg);
-                    -webkit-transform-origin: top;
-                    transform-origin: top;
                     opacity: 0;
                 }
 
-                50% {
-                    -webkit-transform: rotateX(0deg);
-                    transform: rotateX(0deg);
-                    -webkit-transform-origin: top;
-                    transform-origin: top;
+                100% {
                     opacity: 1;
                 }
-
-                100% {
-                    -webkit-transform: rotateX(-100deg);
-                    transform: rotateX(-100deg);
-                    -webkit-transform-origin: top;
-                    transform-origin: top;
-                    opacity: 0;
-                }
             }
 
-            @keyframes swing-top {
-                0% {
-                    -webkit-transform: rotateX(-100deg);
-                    transform: rotateX(-100deg);
-                    -webkit-transform-origin: top;
-                    transform-origin: top;
-                    opacity: 0;
-                }
-
-                50% {
-                    -webkit-transform: rotateX(0deg);
-                    transform: rotateX(0deg);
-                    -webkit-transform-origin: top;
-                    transform-origin: top;
-                    opacity: 1;
-                }
-
-                100% {
-                    -webkit-transform: rotateX(-100deg);
-                    transform: rotateX(-100deg);
-                    -webkit-transform-origin: top;
-                    transform-origin: top;
-                    opacity: 0;
-                }
-            }
-
-            @-webkit-keyframes swing-top-1 {
-                0% {
-                    -webkit-transform: rotateX(-100deg);
-                    transform: rotateX(-100deg);
-                    -webkit-transform-origin: top;
-                    transform-origin: top;
-                    opacity: 0;
-                }
-
-                50% {
-                    -webkit-transform: rotateX(0deg);
-                    transform: rotateX(0deg);
-                    -webkit-transform-origin: top;
-                    transform-origin: top;
-                    opacity: 1;
-                }
-
-                100% {
-                    -webkit-transform: rotateX(-100deg);
-                    transform: rotateX(-100deg);
-                    -webkit-transform-origin: top;
-                    transform-origin: top;
-                    opacity: 0;
-                }
-            }
-
-            @keyframes swing-top-1 {
-                0% {
-                    -webkit-transform: rotateX(-100deg);
-                    transform: rotateX(-100deg);
-                    -webkit-transform-origin: top;
-                    transform-origin: top;
-                    opacity: 0;
-                }
-
-                50% {
-                    -webkit-transform: rotateX(0deg);
-                    transform: rotateX(0deg);
-                    -webkit-transform-origin: top;
-                    transform-origin: top;
-                    opacity: 1;
-                }
-
-                100% {
-                    -webkit-transform: rotateX(-100deg);
-                    transform: rotateX(-100deg);
-                    -webkit-transform-origin: top;
-                    transform-origin: top;
-                    opacity: 0;
-                }
-            }
-
-            @-webkit-keyframes swing-top-2 {
-                0% {
-                    -webkit-transform: rotateX(-100deg);
-                    transform: rotateX(-100deg);
-                    -webkit-transform-origin: top;
-                    transform-origin: top;
-                    opacity: 0;
-                }
-
-                50% {
-                    -webkit-transform: rotateX(0deg);
-                    transform: rotateX(0deg);
-                    -webkit-transform-origin: top;
-                    transform-origin: top;
-                    opacity: 1;
-                }
-
-                100% {
-                    -webkit-transform: rotateX(-100deg);
-                    transform: rotateX(-100deg);
-                    -webkit-transform-origin: top;
-                    transform-origin: top;
-                    opacity: 0;
-                }
-            }
-
-            @keyframes swing-top-2 {
-                0% {
-                    -webkit-transform: rotateX(-100deg);
-                    transform: rotateX(-100deg);
-                    -webkit-transform-origin: top;
-                    transform-origin: top;
-                    opacity: 0;
-                }
-
-                50% {
-                    -webkit-transform: rotateX(0deg);
-                    transform: rotateX(0deg);
-                    -webkit-transform-origin: top;
-                    transform-origin: top;
-                    opacity: 1;
-                }
-
-                100% {
-                    -webkit-transform: rotateX(-100deg);
-                    transform: rotateX(-100deg);
-                    -webkit-transform-origin: top;
-                    transform-origin: top;
-                    opacity: 0;
-                }
+            .glow {
+                filter: drop-shadow(0 0 3px #00ff00);
             }
         </style>
     </defs>
 
-    <!-- S E U N G -->
-    <svg x="8%" y="8%" width="24%" height="24%" viewBox="0 0 98 98" class="bg-top">
-        <rect x="0" y="0" class="swing-top" rx="24" ry="24" />
-        <text x="50%" y="50%" class="swing-top">
-            S
-        </text>
-    </svg>
+    <!-- Falling matrix characters -->
+    <g class="matrix-background">
+        <text x="50" y="0" class="matrix-char matrix-fall" style="animation-delay: 0s;">日</text>
+        <text x="80" y="0" class="matrix-char matrix-fall" style="animation-delay: 0.3s;">ｱ</text>
+        <text x="120" y="0" class="matrix-char matrix-fall" style="animation-delay: 0.7s;">ﾊ</text>
+        <text x="180" y="0" class="matrix-char matrix-fall" style="animation-delay: 1.1s;">ﾐ</text>
+        <text x="220" y="0" class="matrix-char matrix-fall" style="animation-delay: 0.2s;">ﾘ</text>
+        <text x="280" y="0" class="matrix-char matrix-fall" style="animation-delay: 0.9s;">ﾅ</text>
+        <text x="320" y="0" class="matrix-char matrix-fall" style="animation-delay: 0.5s;">ﾓ</text>
+        <text x="380" y="0" class="matrix-char matrix-fall" style="animation-delay: 1.3s;">ﾄ</text>
+        <text x="420" y="0" class="matrix-char matrix-fall" style="animation-delay: 0.8s;">ﾘ</text>
+        <text x="480" y="0" class="matrix-char matrix-fall" style="animation-delay: 0.4s;">ﾂ</text>
+        <text x="520" y="0" class="matrix-char matrix-fall" style="animation-delay: 1.2s;">ﾁ</text>
 
-    <svg x="21%" y="8%" width="24%" height="24%" viewBox="0 0 98 98" class="bg-top-1">
-        <rect x="0" y="0" class="swing-top" rx="24" ry="24" />
-        <text x="50%" y="50%" class="swing-top">
-            E
-        </text>
-    </svg>
+        <!-- Second row -->
+        <text x="60" y="0" class="matrix-char matrix-fall" style="animation-delay: 1.5s;">ﾃ</text>
+        <text x="140" y="0" class="matrix-char matrix-fall" style="animation-delay: 0.6s;">ﾊ</text>
+        <text x="200" y="0" class="matrix-char matrix-fall" style="animation-delay: 1.8s;">ﾘ</text>
+        <text x="300" y="0" class="matrix-char matrix-fall" style="animation-delay: 0.1s;">ﾅ</text>
+        <text x="400" y="0" class="matrix-char matrix-fall" style="animation-delay: 1.4s;">ﾓ</text>
+        <text x="500" y="0" class="matrix-char matrix-fall" style="animation-delay: 0.7s;">ﾄ</text>
+    </g>
 
-    <svg x="34%" y="8%" width="24%" height="24%" viewBox="0 0 98 98" class="bg-top-2">
-        <rect x="0" y="0" class="swing-top" rx="24" ry="24" />
-        <text x="50%" y="50%" class="swing-top ">
-            U
-        </text>
-    </svg>
+    <!-- Main name -->
+    <g class="name-text glow">
+        <text x="300" y="90" text-anchor="middle" class="name-char fade-in">SEUNGHWAN LEE</text>
+    </g>
 
-    <svg x="47%" y="8%" width="24%" height="24%" viewBox="0 0 98 98" class="bg-top">
-        <rect x="0" y="0" class="swing-top" rx="24" ry="24" />
-        <text x="50%" y="50%" class="swing-top ">
-            N
-        </text>
-    </svg>
-
-    <svg x="60%" y="8%" width="24%" height="24%" viewBox="0 0 98 98" class="bg-top-1">
-        <rect x="0" y="0" class="swing-top" rx="24" ry="24" />
-        <text x="50%" y="50%" class="swing-top">
-            G
-        </text>
-    </svg>
-    <svg x="73%" y="8%" width="24%" height="24%" viewBox="0 0 98 98" class="bg-top">
-        <rect x="0" y="0" rx="24" ry="24" />
-    </svg>
-    <!-- H W A N -->
-    <svg x="8%" y="35%" width="24%" height="24%" viewBox="0 0 98 98" class="bg-top-1">
-        <rect x="0" y="0" rx="24" ry="24" />
-    </svg>
-
-    <svg x="21%" y="35%" width="24%" height="24%" viewBox="0 0 98 98" class="bg-top-2">
-        <rect x="0" y="0" class="swing-top-1" rx="24" ry="24" />
-        <text x="50%" y="50%" class="swing-top-1 ">
-            H
-        </text>
-    </svg>
-    <svg x="34%" y="35%" width="24%" height="24%" viewBox="0 0 98 98" class="bg-top-1">
-        <rect x="0" y="0" class="swing-top-1" rx="24" ry="24" />
-        <text x="50%" y="50%" class="swing-top-1 ">
-            W
-        </text>
-    </svg>
-    <svg x="47%" y="35%" width="24%" height="24%" viewBox="0 0 98 98" class="bg-top">
-        <rect x="0" y="0" class="swing-top-1" rx="24" ry="24" />
-        <text x="50%" y="50%" class="swing-top-1 ">
-            A
-        </text>
-    </svg>
-    <svg x="60%" y="35%" width="24%" height="24%" viewBox="0 0 98 98" class="bg-top-1">
-        <rect x="0" y="0" class="swing-top-1" rx="24" ry="24" />
-        <text x="50%" y="50%" class="swing-top-1">
-            N
-        </text>
-    </svg>
-    <svg x="73%" y="35%" width="24%" height="24%" viewBox="0 0 98 98" class="bg-top-2">
-        <rect x="0" y="0" rx="24" ry="24" />
-    </svg>
-    <!-- L E E -->
-    <svg x="8%" y="62%" width="24%" height="24%" viewBox="0 0 98 98" class="bg-top">
-        <rect x="0" y="0" rx="24" ry="24" />
-    </svg>
-    <svg x="21%" y="62%" width="24%" height="24%" viewBox="0 0 98 98" class="bg-top-2">
-        <rect x="0" y="0" rx="24" ry="24" />
-    </svg>
-    <svg x="34%" y="62%" width="24%" height="24%" viewBox="0 0 98 98" class="bg-top">
-        <rect x="0" y="0" class="swing-top-2" rx="24" ry="24" />
-        <text x="50%" y="50%" class="swing-top-2">
-            L
-        </text>
-    </svg>
-    <svg x="47%" y="62%" width="24%" height="24%" viewBox="0 0 98 98" class="bg-top-1">
-        <rect x="0" y="0" class="swing-top-2" rx="24" ry="24" />
-        <text x="50%" y="50%" class="swing-top-2">
-            E
-        </text>
-    </svg>
-    <svg x="60%" y="62%" width="24%" height="24%" viewBox="0 0 98 98" class="bg-top-2">
-        <rect x="0" y="0" class="swing-top-2" rx="24" ry="24" />
-        <text x="50%" y="50%" class="swing-top-2">
-            E
-        </text>
-    </svg>
-    <svg x="73%" y="62%" width="24%" height="24%" viewBox="0 0 98 98" class="bg-top">
-        <rect x="0" y="0" rx="24" ry="24" />
-    </svg>
-
-
+    <!-- Subtitle -->
+    <text x="300" y="115" text-anchor="middle" class="subtitle fade-in-delayed">Flutter Developer • Mobile Architect
+        • Educator</text>
 </svg>
