@@ -1,88 +1,112 @@
-<svg width="960" height="360" viewBox="0 0 960 360" fill="none" xmlns="http://www.w3.org/2000/svg" role="img" aria-labelledby="title desc">
-  <title id="title">Seunghwan Lee — Frontend Developer</title>
-  <desc id="desc">Flutter, Web, Automation 궤도를 오가는 개발자를 표현한 애니메이션 카드</desc>
+<svg width="960" height="380" viewBox="0 0 960 380" fill="none" xmlns="http://www.w3.org/2000/svg" role="img" aria-labelledby="title desc">
+  <title id="title">Seunghwan Lee의 기술 태양계</title>
+  <desc id="desc">User Impact를 중심으로 Flutter, Dart, React, FastAPI, AWS, Automation이 공전하는 애니메이션 카드</desc>
   <defs>
-    <linearGradient id="bg" x1="50" y1="20" x2="900" y2="350" gradientUnits="userSpaceOnUse">
-      <stop stop-color="#07111F"/>
-      <stop offset=".5" stop-color="#0B1728"/>
-      <stop offset="1" stop-color="#09121E"/>
-    </linearGradient>
-    <radialGradient id="halo">
-      <stop stop-color="#61E7C5" stop-opacity=".28"/>
-      <stop offset="1" stop-color="#61E7C5" stop-opacity="0"/>
+    <radialGradient id="space" cx="0" cy="0" r="1" gradientTransform="translate(715 180) rotate(137) scale(730 530)" gradientUnits="userSpaceOnUse">
+      <stop stop-color="#14224A"/>
+      <stop offset=".42" stop-color="#080D22"/>
+      <stop offset="1" stop-color="#030611"/>
     </radialGradient>
-    <linearGradient id="line" x1="0" y1="0" x2="1" y2="1">
-      <stop stop-color="#61E7C5"/>
-      <stop offset="1" stop-color="#77A7FF"/>
-    </linearGradient>
-    <filter id="glow" x="-100%" y="-100%" width="300%" height="300%">
-      <feGaussianBlur stdDeviation="5" result="blur"/>
-      <feMerge><feMergeNode in="blur"/><feMergeNode in="SourceGraphic"/></feMerge>
+    <radialGradient id="sun">
+      <stop stop-color="#FFF8C5"/>
+      <stop offset=".32" stop-color="#FFD45D"/>
+      <stop offset=".68" stop-color="#FF8A3D"/>
+      <stop offset="1" stop-color="#FF4D42"/>
+    </radialGradient>
+    <filter id="sun-glow" x="-200%" y="-200%" width="500%" height="500%">
+      <feGaussianBlur stdDeviation="12" result="b"/>
+      <feMerge><feMergeNode in="b"/><feMergeNode in="SourceGraphic"/></feMerge>
+    </filter>
+    <filter id="planet-glow" x="-200%" y="-200%" width="500%" height="500%">
+      <feGaussianBlur stdDeviation="3" result="b"/>
+      <feMerge><feMergeNode in="b"/><feMergeNode in="SourceGraphic"/></feMerge>
     </filter>
     <style>
-      .sans { font-family: Inter, ui-sans-serif, system-ui, -apple-system, BlinkMacSystemFont, "Segoe UI", sans-serif; }
-      .mono { font-family: "SFMono-Regular", Consolas, "Liberation Mono", monospace; }
-      .orbit { transform-origin: 758px 180px; animation: spin 18s linear infinite; }
-      .orbit-reverse { transform-origin: 758px 180px; animation: spin-reverse 12s linear infinite; }
-      .pulse { animation: pulse 3s ease-in-out infinite; }
-      .blink { animation: blink 2.2s steps(1) infinite; }
-      .dash { stroke-dasharray: 5 12; animation: dash 12s linear infinite; }
-      .signal { animation: signal 4.8s ease-in-out infinite; }
+      .sans { font-family: Inter, ui-sans-serif, system-ui, -apple-system, "Segoe UI", sans-serif; }
+      .mono { font-family: "SFMono-Regular", Consolas, monospace; }
+      .o1 { transform-origin: 726px 190px; animation: spin 7s linear infinite; }
+      .o2 { transform-origin: 726px 190px; animation: spin 11s linear infinite; }
+      .o3 { transform-origin: 726px 190px; animation: spin 17s linear infinite; }
+      .o4 { transform-origin: 726px 190px; animation: spin 25s linear infinite; }
+      .o5 { transform-origin: 726px 190px; animation: spin 35s linear infinite; }
+      .comet { animation: comet 5s ease-in infinite; }
+      .pulse { transform-origin: 726px 190px; animation: pulse 2.8s ease-in-out infinite; }
       @keyframes spin { to { transform: rotate(360deg); } }
-      @keyframes spin-reverse { to { transform: rotate(-360deg); } }
-      @keyframes pulse { 50% { opacity: .42; transform: scale(.94); } }
-      @keyframes blink { 50% { opacity: 0; } }
-      @keyframes dash { to { stroke-dashoffset: -170; } }
-      @keyframes signal { 0%, 100% { opacity: .25; } 45%, 55% { opacity: 1; } }
-      @media (prefers-reduced-motion: reduce) {
-        .orbit, .orbit-reverse, .pulse, .blink, .dash, .signal { animation: none; }
+      @keyframes pulse { 50% { transform: scale(1.12); opacity: .72; } }
+      @keyframes comet {
+        0%, 18% { opacity: 0; transform: translate(-40px,-25px); }
+        42% { opacity: 1; }
+        70%, 100% { opacity: 0; transform: translate(180px,100px); }
       }
+      @media (prefers-reduced-motion: reduce) { .o1,.o2,.o3,.o4,.o5,.comet,.pulse { animation: none; } }
     </style>
   </defs>
 
-  <rect width="960" height="360" rx="28" fill="url(#bg)"/>
-  <path d="M0 292C202 238 300 350 488 286C657 228 731 280 960 210V360H0V292Z" fill="#0F2034" opacity=".7"/>
-  <path d="M0 309C188 258 322 350 502 302C673 256 774 289 960 238" stroke="#19334D" stroke-width="1"/>
-  <g opacity=".4">
-    <path d="M68 42V318M118 42V318M168 42V318M218 42V318M268 42V318M318 42V318M368 42V318M418 42V318M468 42V318M518 42V318" stroke="#173047"/>
-    <path d="M42 80H555M42 130H555M42 180H555M42 230H555M42 280H555" stroke="#173047"/>
+  <rect width="960" height="380" rx="28" fill="url(#space)"/>
+  <g fill="#C8D6FF">
+    <circle cx="48" cy="41" r="1"/><circle cx="114" cy="292" r=".8"/><circle cx="183" cy="67" r=".7"/>
+    <circle cx="256" cy="326" r="1"/><circle cx="319" cy="44" r=".6"/><circle cx="374" cy="256" r=".8"/>
+    <circle cx="438" cy="96" r=".7"/><circle cx="507" cy="333" r="1"/><circle cx="551" cy="36" r=".7"/>
+    <circle cx="609" cy="302" r=".8"/><circle cx="655" cy="71" r=".6"/><circle cx="820" cy="45" r=".9"/>
+    <circle cx="895" cy="116" r=".7"/><circle cx="923" cy="309" r="1"/><circle cx="846" cy="343" r=".6"/>
+  </g>
+  <g fill="#7898FF" opacity=".55">
+    <circle cx="88" cy="166" r="1.4"/><circle cx="292" cy="179" r="1.2"/><circle cx="462" cy="288" r="1.3"/>
+    <circle cx="578" cy="139" r="1.2"/><circle cx="893" cy="224" r="1.3"/>
   </g>
 
   <g class="sans">
-    <text x="56" y="68" fill="#61E7C5" font-size="14" font-weight="700" letter-spacing="2.4">BUILDING ACROSS BOUNDARIES</text>
-    <text x="54" y="132" fill="#F2F7FC" font-size="46" font-weight="720">Seunghwan Lee</text>
-    <text x="56" y="171" fill="#9DB0C2" font-size="20">Frontend Developer · Flutter → Web → Automation</text>
-    <text x="56" y="227" fill="#D6E0E8" font-size="16">문제를 따라 플랫폼 경계를 넘고,</text>
-    <text x="56" y="254" fill="#D6E0E8" font-size="16">더 빠른 피드백 루프를 만듭니다.</text>
+    <text x="54" y="66" fill="#8EA8FF" font-size="13" font-weight="700" letter-spacing="2.5">SEUNGHWAN'S UNIVERSE</text>
+    <text x="52" y="129" fill="#F4F6FF" font-size="44" font-weight="760">My stack is</text>
+    <text x="52" y="178" fill="#F4F6FF" font-size="44" font-weight="760">a solar system.</text>
+    <text x="54" y="221" fill="#9FAAC7" font-size="15">기술은 목적지가 아닌 궤도.</text>
+    <text x="54" y="246" fill="#9FAAC7" font-size="15">모든 선택은 사용자 가치로 향합니다.</text>
   </g>
-
   <g class="mono">
-    <rect x="56" y="289" width="211" height="34" rx="17" fill="#102C32" stroke="#265C58"/>
-    <circle cx="76" cy="306" r="4" fill="#61E7C5" class="blink"/>
-    <text x="90" y="311" fill="#9FEED9" font-size="12">tap to enter orbit</text>
+    <rect x="54" y="294" width="205" height="36" rx="18" fill="#111B3B" stroke="#334C89"/>
+    <circle cx="76" cy="312" r="4" fill="#8EA8FF"/>
+    <text x="91" y="316" fill="#B8C8FF" font-size="11">ENTER THE SYSTEM →</text>
   </g>
 
-  <circle cx="758" cy="180" r="142" fill="url(#halo)" class="pulse" style="transform-origin:758px 180px"/>
-  <circle cx="758" cy="180" r="105" stroke="#2C4B62" class="dash"/>
-  <circle cx="758" cy="180" r="68" stroke="#29445B" stroke-dasharray="3 8"/>
-  <g class="orbit">
-    <circle cx="758" cy="75" r="8" fill="#61E7C5" filter="url(#glow)"/>
-    <circle cx="758" cy="75" r="18" stroke="#61E7C5" opacity=".25"/>
+  <g stroke="#40507A" opacity=".62">
+    <ellipse cx="726" cy="190" rx="56" ry="26"/>
+    <ellipse cx="726" cy="190" rx="86" ry="42"/>
+    <ellipse cx="726" cy="190" rx="120" ry="62"/>
+    <ellipse cx="726" cy="190" rx="157" ry="84"/>
+    <ellipse cx="726" cy="190" rx="196" ry="111"/>
   </g>
-  <g class="orbit-reverse">
-    <circle cx="826" cy="180" r="7" fill="#77A7FF" filter="url(#glow)"/>
-  </g>
-  <circle cx="758" cy="180" r="39" fill="#0E2634" stroke="url(#line)" stroke-width="2"/>
-  <path d="M744 180L754 190L774 169" stroke="#C6FFF0" stroke-width="4" stroke-linecap="round" stroke-linejoin="round"/>
+  <circle cx="726" cy="190" r="25" fill="#FF9A45" opacity=".22" class="pulse"/>
+  <circle cx="726" cy="190" r="16" fill="url(#sun)" filter="url(#sun-glow)"/>
+  <text x="726" y="225" fill="#FFD789" class="mono" font-size="8" text-anchor="middle" letter-spacing="1.2">USER IMPACT</text>
 
-  <g class="mono" font-size="11" letter-spacing="1">
-    <text x="720" y="43" fill="#61E7C5" class="signal">FLUTTER</text>
-    <text x="866" y="185" fill="#77A7FF" class="signal" style="animation-delay:1.6s">WEB</text>
-    <text x="696" y="330" fill="#B697FF" class="signal" style="animation-delay:3.2s">AUTOMATION</text>
+  <g class="o1">
+    <circle cx="782" cy="190" r="6" fill="#54D1FF" filter="url(#planet-glow)"/>
   </g>
-  <path d="M820 95L850 67M839 278L874 302M643 233L614 246" stroke="#4D718C"/>
-  <circle cx="850" cy="67" r="3" fill="#61E7C5"/>
-  <circle cx="874" cy="302" r="3" fill="#B697FF"/>
-  <circle cx="614" cy="246" r="3" fill="#77A7FF"/>
-  <rect x=".5" y=".5" width="959" height="359" rx="27.5" stroke="#29465D"/>
+  <g class="o2">
+    <circle cx="640" cy="190" r="8" fill="#5F8CFF" filter="url(#planet-glow)"/>
+  </g>
+  <g class="o3">
+    <circle cx="726" cy="128" r="7" fill="#75E4D0" filter="url(#planet-glow)"/>
+  </g>
+  <g class="o4">
+    <circle cx="883" cy="190" r="9" fill="#BE8CFF" filter="url(#planet-glow)"/>
+  </g>
+  <g class="o5">
+    <circle cx="530" cy="190" r="11" fill="#FFB85C" filter="url(#planet-glow)"/>
+    <ellipse cx="530" cy="190" rx="17" ry="4" stroke="#FFE1A4" transform="rotate(-18 530 190)"/>
+  </g>
+
+  <g class="mono" font-size="9" fill="#AAB7D6">
+    <text x="778" y="173">DART</text>
+    <text x="616" y="174">FLUTTER</text>
+    <text x="739" y="122">REACT</text>
+    <text x="873" y="171">FASTAPI</text>
+    <text x="501" y="169">AWS · CI/CD</text>
+  </g>
+  <g class="comet">
+    <path d="M555 75L510 47" stroke="#C8F7FF" stroke-width="2" stroke-linecap="round"/>
+    <circle cx="555" cy="75" r="3" fill="#E9FCFF" filter="url(#planet-glow)"/>
+  </g>
+  <text x="770" y="350" fill="#7280A4" class="mono" font-size="9" letter-spacing="1.5">AI AUTOMATION / COMET</text>
+  <rect x=".5" y=".5" width="959" height="379" rx="27.5" stroke="#26365E"/>
 </svg>

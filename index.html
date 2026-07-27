@@ -3,103 +3,106 @@
   <head>
     <meta charset="UTF-8" />
     <meta name="viewport" content="width=device-width, initial-scale=1" />
-    <meta name="theme-color" content="#07111f" />
-    <meta
-      name="description"
-      content="Flutter에서 Web과 Automation으로 궤도를 넓혀가는 Frontend Developer, Seunghwan Lee."
-    />
-    <title>Seunghwan Lee — Developer in Orbit</title>
+    <meta name="theme-color" content="#030611" />
+    <meta name="description" content="사용자 가치를 중심으로 기술이 공전하는 Seunghwan Lee의 개발자 태양계." />
+    <title>Seunghwan's Universe — Developer Solar System</title>
     <link rel="preconnect" href="https://fonts.googleapis.com" />
     <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
-    <link
-      href="https://fonts.googleapis.com/css2?family=Manrope:wght@400;500;600;700;800&family=Roboto+Mono:wght@400;500&display=swap"
-      rel="stylesheet"
-    />
+    <link href="https://fonts.googleapis.com/css2?family=Manrope:wght@400;500;600;700;800&family=Roboto+Mono:wght@400;500&display=swap" rel="stylesheet" />
     <link rel="stylesheet" href="./styles.css" />
   </head>
   <body>
-    <div class="cursor-glow" aria-hidden="true"></div>
-    <div class="noise" aria-hidden="true"></div>
+    <div class="space-glow" aria-hidden="true"></div>
+    <div class="stars stars-a" aria-hidden="true"></div>
+    <div class="stars stars-b" aria-hidden="true"></div>
 
     <main>
       <nav aria-label="주요 링크">
-        <a class="wordmark" href="#top" aria-label="첫 화면으로">SL<span>.</span></a>
+        <a class="wordmark" href="#top" aria-label="첫 화면으로">SL<span>°</span></a>
+        <p class="location">37.5665° N · 126.9780° E</p>
         <div class="nav-links">
           <a href="https://github.com/seunghwanly?tab=repositories">GitHub</a>
           <a href="https://medium.com/@seunghwanly">Notes</a>
-          <a class="nav-cta" href="mailto:seunghwanly@gmail.com">Contact ↗</a>
+          <a class="nav-cta" href="mailto:seunghwanly@gmail.com">Send signal ↗</a>
         </div>
       </nav>
 
       <section class="hero" id="top">
         <div class="hero-copy">
-          <p class="eyebrow"><span></span> FRONTEND DEVELOPER · SEOUL</p>
-          <h1>
-            문제를 따라<br />
-            <em>경계를 넘습니다.</em>
-          </h1>
+          <p class="eyebrow"><span></span> SEUNGHWAN'S UNIVERSE · 2026</p>
+          <h1>MY STACK<br />IS A <em>SOLAR</em><br />SYSTEM.</h1>
           <p class="lede">
-            Flutter로 시작해 Web, Backend, Infrastructure, Automation으로.
-            사용자에게 더 빨리 닿는 피드백 루프를 만듭니다.
+            기술은 목적지가 아닌 궤도입니다. Flutter에서 Web, Backend,
+            Infrastructure, AI까지—모든 선택은 사용자 가치로 향합니다.
           </p>
           <div class="hero-actions">
-            <a class="primary" href="#signals">Explore my signals <span>↓</span></a>
-            <p><kbd>MOVE</kbd> 궤도를 움직여 보세요</p>
+            <a class="primary" href="#star-map">View star map <span>↓</span></a>
+            <p><kbd>MOVE</kbd> 태양계를 움직여 보세요</p>
           </div>
         </div>
 
-        <div class="orbit-stage" aria-label="마우스를 따라 반응하는 기술 궤도">
-          <div class="orbit orbit-one" data-depth="1.2"><span class="node flutter">Flutter</span></div>
-          <div class="orbit orbit-two" data-depth=".8"><span class="node web">Web</span></div>
-          <div class="orbit orbit-three" data-depth="1.5"><span class="node automation">Automation</span></div>
-          <div class="core" data-depth=".35">
-            <span>BUILD</span>
-            <strong>↗</strong>
-            <small>SHIP · LEARN · REPEAT</small>
+        <div class="system-wrap">
+          <div class="solar-system" aria-label="마우스에 반응하는 기술 태양계">
+            <div class="sun" data-depth=".3">
+              <span>USER</span><strong>IMPACT</strong>
+            </div>
+
+            <button class="orbit orbit-1" data-depth=".55" data-stack="Dart" data-detail="언어의 명료함으로 복잡도를 낮춥니다.">
+              <span class="planet planet-dart"></span><b>DART</b>
+            </button>
+            <button class="orbit orbit-2" data-depth=".75" data-stack="Flutter" data-detail="하나의 경험을 여러 플랫폼에 안정적으로 전달합니다.">
+              <span class="planet planet-flutter"></span><b>FLUTTER</b>
+            </button>
+            <button class="orbit orbit-3" data-depth=".95" data-stack="React · Web" data-detail="배포와 실험의 속도를 높여 더 빠르게 검증합니다.">
+              <span class="planet planet-react"></span><b>REACT · WEB</b>
+            </button>
+            <button class="orbit orbit-4" data-depth="1.15" data-stack="FastAPI" data-detail="제품에 필요한 작은 서비스를 빠르게 연결합니다.">
+              <span class="planet planet-api"></span><b>FASTAPI</b>
+            </button>
+            <button class="orbit orbit-5" data-depth="1.35" data-stack="AWS · CI/CD" data-detail="반복 가능한 배포 궤도로 팀의 시간을 돌려줍니다.">
+              <span class="planet planet-ops"></span><b>AWS · CI/CD</b>
+            </button>
+            <div class="comet" aria-label="AI Automation">
+              <i></i><span>AI AUTOMATION</span>
+            </div>
           </div>
-          <div class="coordinate" aria-hidden="true">X <span id="x-value">00</span> · Y <span id="y-value">00</span></div>
+
+          <div class="telemetry" aria-live="polite">
+            <span id="stack-name">USER IMPACT</span>
+            <p id="stack-detail">기술 선택의 중심. 사용자가 체감하는 변화를 만듭니다.</p>
+          </div>
         </div>
       </section>
 
-      <section class="signals" id="signals">
+      <section class="star-map" id="star-map">
         <header>
-          <p class="eyebrow"><span></span> PUBLIC SIGNALS</p>
-          <h2>코드는 관심사의 궤적입니다.</h2>
+          <p class="eyebrow"><span></span> OBSERVED SYSTEMS</p>
+          <h2>관심사는 코드에<br />궤적으로 남습니다.</h2>
         </header>
         <div class="signal-grid">
-          <a class="signal-card mint" href="https://github.com/seunghwanly/kakao_maps_flutter">
-            <span class="number">01</span>
-            <div>
-              <p>OPEN SOURCE · FLUTTER</p>
-              <h3>kakao_maps_flutter</h3>
-              <span>Native SDK를 Flutter다운 API로 연결 →</span>
-            </div>
+          <a class="signal-card blue" href="https://github.com/seunghwanly/kakao_maps_flutter">
+            <span class="index">01 / INNER SYSTEM</span>
+            <div class="mini-planet"></div>
+            <div><p>OPEN SOURCE · FLUTTER</p><h3>kakao_maps_flutter</h3><span>Native SDK를 Flutter다운 API로 연결 →</span></div>
           </a>
-          <a class="signal-card blue" href="https://github.com/seunghwanly/widgetbook_size_inspector">
-            <span class="number">02</span>
-            <div>
-              <p>DESIGN SYSTEM · TOOLING</p>
-              <h3>widgetbook_size_inspector</h3>
-              <span>디자인과 코드 사이 피드백을 더 짧게 →</span>
-            </div>
+          <a class="signal-card mint" href="https://github.com/seunghwanly/widgetbook_size_inspector">
+            <span class="index">02 / DESIGN MOON</span>
+            <div class="mini-planet ringed"></div>
+            <div><p>DESIGN SYSTEM · TOOLING</p><h3>widgetbook_size_inspector</h3><span>디자인과 코드 사이 피드백을 더 짧게 →</span></div>
           </a>
-          <a class="signal-card violet" href="https://github.com/seunghwanly/local-flutter-cicd-server">
-            <span class="number">03</span>
-            <div>
-              <p>DELIVERY · AUTOMATION</p>
-              <h3>local-flutter-cicd-server</h3>
-              <span>모바일 배포를 반복 가능한 시스템으로 →</span>
-            </div>
+          <a class="signal-card orange" href="https://github.com/seunghwanly/local-flutter-cicd-server">
+            <span class="index">03 / OUTER SYSTEM</span>
+            <div class="mini-planet striped"></div>
+            <div><p>DELIVERY · AUTOMATION</p><h3>local-flutter-cicd-server</h3><span>모바일 배포를 반복 가능한 시스템으로 →</span></div>
           </a>
         </div>
       </section>
 
       <footer>
         <p>Build for people. Automate the repetition.</p>
-        <a href="mailto:seunghwanly@gmail.com">seunghwanly@gmail.com ↗</a>
+        <a href="mailto:seunghwanly@gmail.com">TRANSMIT A SIGNAL ↗</a>
       </footer>
     </main>
-
     <script src="./script.js"></script>
   </body>
 </html>
