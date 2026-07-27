@@ -28,26 +28,13 @@
       </nav>
 
       <section class="hero" id="top">
-        <div class="hero-copy">
-          <p class="eyebrow"><span></span> SEUNGHWAN'S UNIVERSE · 2026</p>
-          <h1>MY STACK<br />IS A <em>SOLAR</em><br />SYSTEM.</h1>
-          <p class="lede">
-            기술은 목적지가 아닌 궤도입니다. Flutter에서 Web, Backend,
-            Infrastructure, AI까지—모든 선택은 사용자 가치로 향합니다.
-          </p>
-          <div class="hero-actions">
-            <a class="primary" href="#star-map">View star map <span>↓</span></a>
-            <p><kbd>MOVE</kbd> 태양계를 움직여 보세요</p>
-          </div>
-        </div>
-
         <div class="system-wrap">
-          <div class="solar-system" aria-label="마우스에 반응하는 기술 태양계">
-            <div class="sun" data-depth=".3">
+          <div class="solar-system" aria-label="자동으로 공전하는 기술 태양계">
+            <div class="sun">
               <strong>SEUNGHWANLY</strong><span>CORE</span>
             </div>
 
-            <button class="orbit orbit-1" aria-label="Dart" data-depth=".55" data-stack="Dart" data-detail="언어의 명료함으로 복잡도를 낮춥니다.">
+            <div class="orbit orbit-1" role="img" aria-label="Dart">
               <span class="planet planet-dart">
                 <svg aria-hidden="true" viewBox="0 0 24 24">
                   <path fill="#1C65BC" d="M4.105 4.105S9.158 1.58 11.684.316a3.079 3.079 0 0 1 1.481-.315c.766.047 1.677.788 1.677.788L24 9.948v9.789h-4.263V24H9.789l-9-9C.303 14.5 0 13.795 0 13.105c0-.319.18-.818.316-1.105l3.789-7.895z"/>
@@ -55,8 +42,8 @@
                   <path fill="#45A4EE" d="M16.839 4.106c-.899-.896-1.809-1.78-2.74-2.643-.302-.267-.567-.468-1.07-.462-.37.014-.87.195-.87.195L6.341 4.105l10.498.001z"/>
                 </svg>
               </span>
-            </button>
-            <button class="orbit orbit-2" aria-label="Flutter" data-depth=".75" data-stack="Flutter" data-detail="하나의 경험을 여러 플랫폼에 안정적으로 전달합니다.">
+            </div>
+            <div class="orbit orbit-2" role="img" aria-label="Flutter">
               <span class="planet planet-flutter">
                 <svg aria-hidden="true" viewBox="0 0 24 24">
                   <path fill="#5AC8F8" d="M14.314 0L2.3 12 6 15.7 21.684.013h-7.357z"/>
@@ -64,8 +51,8 @@
                   <path fill="#1264A3" d="M11.55 21.23L14.327 24H21.7l-6.46-6.468-3.69 3.698z"/>
                 </svg>
               </span>
-            </button>
-            <button class="orbit orbit-3" aria-label="React" data-depth=".95" data-stack="React · Web" data-detail="배포와 실험의 속도를 높여 더 빠르게 검증합니다.">
+            </div>
+            <div class="orbit orbit-3" role="img" aria-label="React">
               <span class="planet planet-react">
                 <svg aria-hidden="true" viewBox="0 0 24 24">
                   <g fill="none" stroke="currentColor" stroke-width="1.35">
@@ -76,34 +63,30 @@
                   <circle cx="12" cy="12" r="1.8"/>
                 </svg>
               </span>
-            </button>
-            <button class="orbit orbit-4" aria-label="Python" data-depth="1.15" data-stack="Python" data-detail="자동화와 데이터 작업을 빠르게 제품 흐름에 연결합니다.">
+            </div>
+            <div class="orbit orbit-4" role="img" aria-label="Python">
               <span class="planet planet-python">
                 <svg aria-hidden="true" viewBox="0 0 112 113">
                   <path fill="#3776AB" d="M54.919.001C50.335.022 45.958.413 42.106 1.095 30.76 3.099 28.7 7.295 28.7 15.032v10.219h26.813v3.406H18.638c-7.793 0-14.616 4.684-16.75 13.594-2.462 10.213-2.571 16.586 0 27.25 1.906 7.938 6.458 13.594 14.25 13.594h9.219v-12.25c0-8.85 7.657-16.656 16.75-16.656h26.78c7.455 0 13.406-6.138 13.406-13.625V15.032c0-7.266-6.13-12.725-13.406-13.937C64.282.328 59.502-.02 54.919.001zM40.419 8.22c2.77 0 5.031 2.299 5.031 5.125 0 2.816-2.262 5.094-5.031 5.094-2.78 0-5.031-2.278-5.031-5.094 0-2.826 2.252-5.125 5.031-5.125z"/>
                   <path fill="#FFD43B" d="M85.638 28.657v11.906c0 9.231-7.826 17-16.75 17H42.106c-7.336 0-13.406 6.279-13.406 13.625V96.72c0 7.266 6.319 11.54 13.406 13.625 8.488 2.496 16.627 2.947 26.782 0 6.75-1.954 13.406-5.888 13.406-13.625V86.501H55.513v-3.406H95.7c7.792 0 10.696-5.435 13.406-13.594 2.8-8.399 2.68-16.476 0-27.25-1.926-7.757-5.604-13.594-13.406-13.594H85.638zM70.575 93.313c2.78 0 5.031 2.278 5.031 5.094 0 2.826-2.252 5.125-5.031 5.125-2.77 0-5.031-2.299-5.031-5.125 0-2.816 2.262-5.094 5.031-5.094z"/>
                 </svg>
               </span>
-            </button>
-            <button class="orbit orbit-5" aria-label="FastAPI" data-depth="1.35" data-stack="FastAPI" data-detail="제품에 필요한 작은 서비스를 빠르게 연결합니다.">
+            </div>
+            <div class="orbit orbit-5" role="img" aria-label="FastAPI">
               <span class="planet planet-api">
                 <svg aria-hidden="true" viewBox="0 0 24 24"><path d="M12 .0387C5.3729.0384.0003 5.3931 0 11.9988c-.001 6.6066 5.372 11.9628 12 11.9625 6.628.0003 12.001-5.3559 12-11.9625-.0003-6.6057-5.3729-11.9604-12-11.96m-.829 5.4153h7.55l-7.5805 5.3284h5.1828L5.279 18.5436q2.9466-6.5444 5.892-13.0896"/></svg>
               </span>
-            </button>
-            <button class="orbit orbit-6" aria-label="AWS" data-depth="1.55" data-stack="AWS · CI/CD" data-detail="반복 가능한 배포 궤도로 팀의 시간을 돌려줍니다.">
+            </div>
+            <div class="orbit orbit-6" role="img" aria-label="AWS">
               <span class="planet planet-ops">
                 <img src="assets/aws-logo.png" alt="" aria-hidden="true" />
               </span>
-            </button>
+            </div>
             <div class="comet" aria-label="AI Automation">
               <i></i><span>AI AUTOMATION</span>
             </div>
           </div>
 
-          <div class="telemetry" aria-live="polite">
-            <span id="stack-name">SEUNGHWANLY</span>
-            <p id="stack-detail">문제에 맞는 기술을 궤도에 올리고 사용자 가치로 연결합니다.</p>
-          </div>
         </div>
       </section>
 
@@ -136,6 +119,5 @@
         <a href="mailto:seunghwanly@gmail.com">TRANSMIT A SIGNAL ↗</a>
       </footer>
     </main>
-    <script src="./script.js"></script>
   </body>
 </html>

@@ -67,10 +67,8 @@ nav {
 .hero {
   min-height: calc(100vh - 86px);
   display: grid;
-  grid-template-columns: .9fr 1.1fr;
-  align-items: center;
-  gap: 28px;
-  padding: 64px clamp(24px, 5vw, 72px) 88px;
+  place-items: center;
+  padding: 48px clamp(24px, 5vw, 72px) 72px;
   border-bottom: 1px solid var(--line);
 }
 .eyebrow {
@@ -82,51 +80,12 @@ nav {
   letter-spacing: .17em;
 }
 .eyebrow span { width: 28px; height: 1px; background: currentColor; }
-h1 {
-  margin: 28px 0 25px;
-  font-size: clamp(52px, 6.3vw, 94px);
-  line-height: .91;
-  letter-spacing: -.065em;
-}
-h1 em {
-  color: transparent;
-  -webkit-text-stroke: 1.5px #8998c7;
-  font-style: normal;
-}
-.lede {
-  max-width: 570px;
-  color: #a7b0c8;
-  font-size: clamp(16px, 1.35vw, 19px);
-  line-height: 1.85;
-  word-break: keep-all;
-}
-.hero-actions { margin-top: 42px; display: flex; align-items: center; gap: 24px; }
-.primary {
-  display: inline-flex;
-  align-items: center;
-  gap: 36px;
-  padding: 15px 21px;
-  color: #071126;
-  background: #90a9ff;
-  border-radius: 3px;
-  font-weight: 800;
-  transition: transform .2s ease, box-shadow .2s ease;
-}
-.primary:hover { transform: translateY(-3px); box-shadow: 0 12px 38px rgba(108, 146, 255, .25); }
-.hero-actions p { color: #596581; font: 400 10px/1 "Roboto Mono", monospace; }
-kbd { padding: 4px 6px; border: 1px solid #344064; border-radius: 3px; }
-
-.system-wrap { min-width: 0; }
+.system-wrap { width: 100%; min-width: 0; }
 .solar-system {
-  --rx: 0deg;
-  --ry: 0deg;
   position: relative;
-  width: min(48vw, 680px);
+  width: min(82vw, 680px);
   aspect-ratio: 1;
-  margin-left: auto;
-  transform: perspective(1000px) rotateX(var(--rx)) rotateY(var(--ry));
-  transform-style: preserve-3d;
-  transition: transform .18s ease-out;
+  margin: 0 auto;
 }
 .sun {
   --tx: 0px;
@@ -187,11 +146,10 @@ kbd { padding: 4px 6px; border: 1px solid #344064; border-radius: 3px; }
   border: 1px solid rgba(100, 113, 151, .25);
   border-radius: 50%;
   background: transparent;
-  cursor: pointer;
+  cursor: default;
   translate: calc(-50% + var(--tx)) calc(-50% + var(--ty));
   color: var(--muted);
 }
-.orbit:hover, .orbit:focus-visible { border-color: rgba(187, 198, 226, .62); outline: none; }
 .orbit-1 { width: 24%; height: 24%; border-color: rgba(69, 164, 238, .23); animation: spin 7s linear infinite; }
 .orbit-2 { width: 38%; height: 38%; border-color: rgba(90, 200, 248, .21); animation: spin 11s linear infinite reverse; }
 .orbit-3 { width: 52%; height: 52%; border-color: rgba(97, 218, 251, .19); animation: spin 16s linear infinite; }
@@ -234,17 +192,6 @@ kbd { padding: 4px 6px; border: 1px solid #344064; border-radius: 3px; }
 .comet i { display: block; width: 8px; height: 8px; border-radius: 50%; background: #eaffff; box-shadow: 0 0 16px #9cecff; }
 .comet i::before { content: ""; position: absolute; width: 80px; height: 1px; right: 2px; top: 3px; background: linear-gradient(90deg, transparent, #dffcff); transform-origin: right; rotate: 30deg; }
 .comet span { position: absolute; left: 15px; top: 12px; white-space: nowrap; color: #7786aa; font: 500 8px/1 "Roboto Mono", monospace; letter-spacing: .12em; }
-.telemetry {
-  min-height: 71px;
-  max-width: 520px;
-  margin: -20px 0 0 auto;
-  padding: 14px 18px;
-  border-left: 1px solid #6177c9;
-  background: linear-gradient(90deg, rgba(43, 57, 108, .28), transparent);
-}
-.telemetry span { color: #9bb0ff; font: 500 10px/1 "Roboto Mono", monospace; letter-spacing: .16em; }
-.telemetry p { margin: 8px 0 0; color: #8d98b4; font-size: 12px; }
-
 @keyframes spin { to { rotate: 1turn; } }
 @keyframes counter-spin { to { rotate: -1turn; } }
 @keyframes reflection {
@@ -299,9 +246,7 @@ footer a { color: #9bb0ff; font: 500 10px/1 "Roboto Mono", monospace; letter-spa
 @media (max-width: 950px) {
   nav { grid-template-columns: 1fr 1fr; }
   .location { display: none; }
-  .hero { grid-template-columns: 1fr; }
   .solar-system { width: min(88vw, 680px); margin: 30px auto 0; }
-  .telemetry { margin: -10px auto 0; }
   .star-map header { align-items: start; flex-direction: column; }
   .star-map h2 { text-align: left; }
   .signal-grid { grid-template-columns: 1fr; }
@@ -311,7 +256,6 @@ footer a { color: #9bb0ff; font: 500 10px/1 "Roboto Mono", monospace; letter-spa
   nav { height: 72px; }
   .nav-links > a:not(.nav-cta) { display: none; }
   .hero { min-height: auto; padding-top: 66px; }
-  .hero-actions { align-items: flex-start; flex-direction: column; }
   .sun { width: 120px; height: 42px; }
   .sun strong { font-size: 10px; }
   .planet-dart { width: 28px; height: 28px; }
@@ -324,5 +268,5 @@ footer a { color: #9bb0ff; font: 500 10px/1 "Roboto Mono", monospace; letter-spa
 @media (prefers-reduced-motion: reduce) {
   html { scroll-behavior: auto; }
   .orbit, .sun strong, .planet, .comet { animation: none; }
-  .solar-system, .primary, .signal-card { transition: none; }
+  .signal-card { transition: none; }
 }
