@@ -122,7 +122,7 @@
   </g>
   <g class="o6">
     <g class="g6" filter="url(#glass-glow)">
-      <g transform="translate(528 190) scale(.82) translate(-528 -190)">
+      <g transform="translate(528 190) scale(.656) translate(-528 -190)">
         <image x="501" y="174" width="54" height="32.23" href="assets/aws-logo.png" preserveAspectRatio="xMidYMid meet" style="mix-blend-mode:screen"/>
       </g>
     </g>

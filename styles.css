@@ -181,7 +181,7 @@ nav {
 .planet-react { --glass: 97, 218, 251; --edge: 153, 233, 255; width: 43px; height: 43px; }
 .planet-python { --glass: 55, 118, 171; --edge: 255, 212, 59; width: 40px; height: 41px; }
 .planet-api { --glass: 0, 150, 136; --edge: 84, 201, 190; width: 40px; height: 40px; }
-.planet-ops { --glass: 247, 247, 247; --edge: 255, 255, 255; width: 66px; height: 39px; }
+.planet-ops { --glass: 247, 247, 247; --edge: 255, 255, 255; width: 53px; height: 31px; }
 .orbit-1 .planet { animation: counter-spin 7s linear infinite; }
 .orbit-2 .planet { animation: spin 11s linear infinite; }
 .orbit-3 .planet { animation: counter-spin 16s linear infinite; }
@@ -263,7 +263,7 @@ footer a { color: #9bb0ff; font: 500 10px/1 "Roboto Mono", monospace; letter-spa
   .planet-react { width: 31px; height: 31px; }
   .planet-python { width: 29px; height: 30px; }
   .planet-api { width: 29px; height: 29px; }
-  .planet-ops { width: 48px; height: 29px; }
+  .planet-ops { width: 38px; height: 23px; }
 }
 @media (prefers-reduced-motion: reduce) {
   html { scroll-behavior: auto; }
