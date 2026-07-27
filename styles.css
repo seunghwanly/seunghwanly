@@ -208,18 +208,22 @@ kbd { padding: 4px 6px; border: 1px solid #344064; border-radius: 3px; }
   overflow: visible;
   color: rgb(var(--glass));
 }
-.planet svg {
+.planet svg,
+.planet img {
+  display: block;
   width: 100%;
   height: 100%;
+  object-fit: contain;
   fill: currentColor;
   filter: drop-shadow(0 5px 10px rgba(0,0,0,.52)) drop-shadow(0 0 10px rgba(var(--glass), .24));
 }
+.planet img { mix-blend-mode: screen; }
 .planet-dart { --glass: 69, 164, 238; --edge: 28, 101, 188; width: 38px; height: 38px; }
 .planet-flutter { --glass: 90, 200, 248; --edge: 18, 100, 163; width: 42px; height: 42px; }
 .planet-react { --glass: 97, 218, 251; --edge: 153, 233, 255; width: 43px; height: 43px; }
 .planet-python { --glass: 55, 118, 171; --edge: 255, 212, 59; width: 40px; height: 41px; }
 .planet-api { --glass: 0, 150, 136; --edge: 84, 201, 190; width: 40px; height: 40px; }
-.planet-ops { --glass: 255, 153, 0; --edge: 255, 190, 92; width: 66px; height: 39px; }
+.planet-ops { --glass: 247, 247, 247; --edge: 255, 255, 255; width: 66px; height: 39px; }
 .orbit-1 .planet { animation: counter-spin 7s linear infinite; }
 .orbit-2 .planet { animation: spin 11s linear infinite; }
 .orbit-3 .planet { animation: counter-spin 16s linear infinite; }
