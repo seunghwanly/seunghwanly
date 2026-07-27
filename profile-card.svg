@@ -18,6 +18,10 @@
       <feDropShadow dx="0" dy="3" stdDeviation="3" flood-color="#02040B" flood-opacity=".72"/>
       <feDropShadow dx="0" dy="0" stdDeviation="2" flood-color="#AAB6D1" flood-opacity=".16"/>
     </filter>
+    <filter id="core-shadow" x="-100%" y="-200%" width="300%" height="500%">
+      <feDropShadow dx="0" dy="3" stdDeviation="3" flood-color="#02040B" flood-opacity=".72"/>
+      <feDropShadow dx="0" dy="2" stdDeviation="4" flood-color="#DEDEDE" flood-opacity=".5"/>
+    </filter>
     <style>
       .sans { font-family: Inter, ui-sans-serif, system-ui, -apple-system, "Segoe UI", sans-serif; }
       .mono { font-family: "SFMono-Regular", Consolas, monospace; }
@@ -119,7 +123,7 @@
     <path d="M555 75L510 47" stroke="#C8F7FF" stroke-width="2" stroke-linecap="round"/>
     <circle cx="555" cy="75" r="3" fill="#E9FCFF" filter="url(#glass-glow)"/>
   </g>
-  <text x="726" y="190" fill="url(#type-glass)" class="sans" font-size="13" font-weight="700" text-anchor="middle" filter="url(#glass-glow)">SEUNGHWANLY</text>
+  <text x="726" y="190" fill="url(#type-glass)" class="sans" font-size="13" font-weight="700" text-anchor="middle" filter="url(#core-shadow)">SEUNGHWANLY</text>
   <path d="M694 198H758" stroke="url(#type-glass)" stroke-opacity=".6"/>
   <text x="726" y="209" fill="#737F9B" class="mono" font-size="6" text-anchor="middle" letter-spacing="1.5">CORE</text>
   <text x="770" y="350" fill="#7280A4" class="mono" font-size="9" letter-spacing="1.5">AI AUTOMATION / COMET</text>
