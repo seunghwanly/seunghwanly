@@ -201,7 +201,8 @@ kbd { padding: 4px 6px; border: 1px solid #344064; border-radius: 3px; }
   translate: -50% -50%;
   display: grid;
   place-items: center;
-  border-radius: 50%;
+  overflow: hidden;
+  border-radius: 58% 42% 52% 48% / 44% 56% 45% 55%;
   color: #f5f7ff;
   background:
     linear-gradient(145deg, rgba(255, 255, 255, .28), rgba(var(--glass), .08) 46%, rgba(9, 14, 37, .24)),
@@ -236,21 +237,21 @@ kbd { padding: 4px 6px; border: 1px solid #344064; border-radius: 3px; }
   z-index: 1;
   white-space: nowrap;
   color: #eef2ff;
-  font: 600 clamp(7px, .78vw, 11px)/1.2 "Roboto Mono", monospace;
-  letter-spacing: -.03em;
+  font: 600 clamp(9px, .86vw, 13px)/1.2 "Roboto Mono", monospace;
+  letter-spacing: -.045em;
   text-align: center;
   text-shadow: 0 1px 7px rgba(0,0,0,.42);
 }
-.planet-dart { --glass: 98, 223, 255; width: 58px; height: 58px; }
-.planet-flutter { --glass: 108, 146, 255; width: 72px; height: 72px; }
-.planet-react { --glass: 113, 224, 198; width: 68px; height: 68px; }
-.planet-api { --glass: 174, 135, 255; width: 80px; height: 80px; }
-.planet-ops { --glass: 255, 173, 87; width: 94px; height: 94px; }
-.orbit-1 .planet { animation: counter-spin 7s linear infinite; }
-.orbit-2 .planet { animation: spin 12s linear infinite; }
-.orbit-3 .planet { animation: counter-spin 18s linear infinite; }
-.orbit-4 .planet { animation: spin 26s linear infinite; }
-.orbit-5 .planet { animation: counter-spin 38s linear infinite; }
+.planet-dart { --glass: 98, 223, 255; width: 84px; height: 48px; }
+.planet-flutter { --glass: 108, 146, 255; width: 108px; height: 56px; }
+.planet-react { --glass: 113, 224, 198; width: 94px; height: 52px; }
+.planet-api { --glass: 174, 135, 255; width: 112px; height: 58px; }
+.planet-ops { --glass: 255, 173, 87; width: 132px; height: 64px; }
+.orbit-1 .planet { animation: counter-spin 7s linear infinite, liquid 6.2s ease-in-out -.8s infinite alternate; }
+.orbit-2 .planet { animation: spin 12s linear infinite, liquid 7.1s ease-in-out -2.4s infinite alternate; }
+.orbit-3 .planet { animation: counter-spin 18s linear infinite, liquid 5.8s ease-in-out -1.6s infinite alternate; }
+.orbit-4 .planet { animation: spin 26s linear infinite, liquid 7.7s ease-in-out -3.2s infinite alternate; }
+.orbit-5 .planet { animation: counter-spin 38s linear infinite, liquid 8.3s ease-in-out -4.1s infinite alternate; }
 .comet { position: absolute; left: 20%; top: 18%; color: #c8f5ff; animation: comet 7s ease-in-out infinite; }
 .comet i { display: block; width: 8px; height: 8px; border-radius: 50%; background: #eaffff; box-shadow: 0 0 16px #9cecff; }
 .comet i::before { content: ""; position: absolute; width: 80px; height: 1px; right: 2px; top: 3px; background: linear-gradient(90deg, transparent, #dffcff); transform-origin: right; rotate: 30deg; }
@@ -268,6 +269,24 @@ kbd { padding: 4px 6px; border: 1px solid #344064; border-radius: 3px; }
 
 @keyframes spin { to { rotate: 1turn; } }
 @keyframes counter-spin { to { rotate: -1turn; } }
+@keyframes liquid {
+  0% {
+    border-radius: 58% 42% 52% 48% / 44% 56% 45% 55%;
+    scale: 1 .96;
+  }
+  35% {
+    border-radius: 46% 54% 41% 59% / 58% 43% 57% 42%;
+    scale: .98 1.03;
+  }
+  70% {
+    border-radius: 54% 46% 61% 39% / 48% 61% 39% 52%;
+    scale: 1.04 .98;
+  }
+  100% {
+    border-radius: 41% 59% 48% 52% / 55% 46% 54% 45%;
+    scale: .99 1.02;
+  }
+}
 @keyframes solar-pulse { 50% { scale: 1.22; opacity: .4; } }
 @keyframes comet { 0%, 100% { translate: -20px -10px; opacity: .25; } 50% { translate: 24px 18px; opacity: 1; } }
 
@@ -331,11 +350,12 @@ footer a { color: #9bb0ff; font: 500 10px/1 "Roboto Mono", monospace; letter-spa
   .hero-actions { align-items: flex-start; flex-direction: column; }
   .sun { width: 96px; height: 96px; }
   .sun strong { font-size: 10px; }
-  .planet-dart { width: 44px; height: 44px; }
-  .planet-flutter { width: 54px; height: 54px; }
-  .planet-react { width: 50px; height: 50px; }
-  .planet-api { width: 58px; height: 58px; }
-  .planet-ops { width: 68px; height: 68px; }
+  .planet-dart { width: 64px; height: 38px; }
+  .planet-flutter { width: 82px; height: 44px; }
+  .planet-react { width: 72px; height: 41px; }
+  .planet-api { width: 86px; height: 45px; }
+  .planet-ops { width: 100px; height: 49px; }
+  .planet b { font-size: 8px; }
 }
 @media (prefers-reduced-motion: reduce) {
   html { scroll-behavior: auto; }
