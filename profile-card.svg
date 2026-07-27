@@ -14,6 +14,21 @@
       <stop offset=".58" stop-color="#9AA8C2" stop-opacity=".68"/>
       <stop offset="1" stop-color="#E5E9F2" stop-opacity=".86"/>
     </linearGradient>
+    <linearGradient id="dart-type" x1="0" y1="0" x2="1" y2="0">
+      <stop stop-color="#4E8096"/><stop offset=".46" stop-color="#E8FAFF"/><stop offset=".62" stop-color="#7DD3FC"/><stop offset="1" stop-color="#B6E6FA"/>
+    </linearGradient>
+    <linearGradient id="flutter-type" x1="0" y1="0" x2="1" y2="0">
+      <stop stop-color="#586B9E"/><stop offset=".46" stop-color="#F0F3FF"/><stop offset=".62" stop-color="#8FA8FF"/><stop offset="1" stop-color="#C2CDFF"/>
+    </linearGradient>
+    <linearGradient id="react-type" x1="0" y1="0" x2="1" y2="0">
+      <stop stop-color="#4F8176"/><stop offset=".46" stop-color="#EDFFFB"/><stop offset=".62" stop-color="#79DCC7"/><stop offset="1" stop-color="#B9EDE2"/>
+    </linearGradient>
+    <linearGradient id="api-type" x1="0" y1="0" x2="1" y2="0">
+      <stop stop-color="#74658A"/><stop offset=".46" stop-color="#FAF6FF"/><stop offset=".62" stop-color="#B8A0D9"/><stop offset="1" stop-color="#DACBEC"/>
+    </linearGradient>
+    <linearGradient id="aws-type" x1="0" y1="0" x2="1" y2="0">
+      <stop stop-color="#816F55"/><stop offset=".46" stop-color="#FFF9EF"/><stop offset=".62" stop-color="#D6B98D"/><stop offset="1" stop-color="#EBD8BC"/>
+    </linearGradient>
     <filter id="glass-glow" x="-100%" y="-100%" width="300%" height="300%">
       <feDropShadow dx="0" dy="3" stdDeviation="3" flood-color="#02040B" flood-opacity=".72"/>
       <feDropShadow dx="0" dy="0" stdDeviation="2" flood-color="#AAB6D1" flood-opacity=".16"/>
@@ -84,27 +99,27 @@
 
   <g class="o1">
     <g class="g1" filter="url(#glass-glow)">
-      <text x="782" y="195" fill="url(#type-glass)" stroke="#D4DCEB" stroke-opacity=".28" stroke-width=".45" paint-order="stroke fill" class="sans" font-size="15" font-weight="700" text-anchor="middle">Dart</text>
+      <text x="782" y="195" fill="url(#dart-type)" stroke="#B9E7F8" stroke-opacity=".48" stroke-width=".5" paint-order="stroke fill" class="sans" font-size="15" font-weight="700" text-anchor="middle">Dart</text>
     </g>
   </g>
   <g class="o2">
     <g class="g2" filter="url(#glass-glow)">
-      <text x="640" y="195" fill="url(#type-glass)" stroke="#D4DCEB" stroke-opacity=".28" stroke-width=".45" paint-order="stroke fill" class="sans" font-size="15" font-weight="700" text-anchor="middle">Flutter</text>
+      <text x="640" y="195" fill="url(#flutter-type)" stroke="#C8D2FF" stroke-opacity=".48" stroke-width=".5" paint-order="stroke fill" class="sans" font-size="15" font-weight="700" text-anchor="middle">Flutter</text>
     </g>
   </g>
   <g class="o3">
     <g class="g3" filter="url(#glass-glow)">
-      <text x="726" y="133" fill="url(#type-glass)" stroke="#D4DCEB" stroke-opacity=".28" stroke-width=".45" paint-order="stroke fill" class="sans" font-size="15" font-weight="700" text-anchor="middle">React</text>
+      <text x="726" y="133" fill="url(#react-type)" stroke="#BCEBDD" stroke-opacity=".48" stroke-width=".5" paint-order="stroke fill" class="sans" font-size="15" font-weight="700" text-anchor="middle">React</text>
     </g>
   </g>
   <g class="o4">
     <g class="g4" filter="url(#glass-glow)">
-      <text x="883" y="195" fill="url(#type-glass)" stroke="#D4DCEB" stroke-opacity=".28" stroke-width=".45" paint-order="stroke fill" class="sans" font-size="15" font-weight="700" text-anchor="middle">FastAPI</text>
+      <text x="883" y="195" fill="url(#api-type)" stroke="#D9C9EA" stroke-opacity=".48" stroke-width=".5" paint-order="stroke fill" class="sans" font-size="15" font-weight="700" text-anchor="middle">FastAPI</text>
     </g>
   </g>
   <g class="o5">
     <g class="g5" filter="url(#glass-glow)">
-      <text x="530" y="195" fill="url(#type-glass)" stroke="#D4DCEB" stroke-opacity=".28" stroke-width=".45" paint-order="stroke fill" class="sans" font-size="15" font-weight="700" text-anchor="middle">AWS</text>
+      <text x="530" y="195" fill="url(#aws-type)" stroke="#E8D3B4" stroke-opacity=".48" stroke-width=".5" paint-order="stroke fill" class="sans" font-size="15" font-weight="700" text-anchor="middle">AWS</text>
     </g>
   </g>
   <g class="comet">
