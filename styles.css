@@ -219,7 +219,7 @@ kbd { padding: 4px 6px; border: 1px solid #344064; border-radius: 3px; }
 .planet-react { --glass: 97, 218, 251; --edge: 153, 233, 255; width: 54px; height: 54px; }
 .planet-python { --glass: 55, 118, 171; --edge: 255, 212, 59; width: 50px; height: 51px; }
 .planet-api { --glass: 0, 150, 136; --edge: 84, 201, 190; width: 50px; height: 50px; }
-.planet-ops { --glass: 255, 153, 0; --edge: 255, 190, 92; width: 82px; height: 49px; }
+.planet-ops { --glass: 247, 247, 247; --edge: 255, 255, 255; width: 82px; height: 49px; }
 .orbit-1 .planet { animation: counter-spin 7s linear infinite; }
 .orbit-2 .planet { animation: spin 11s linear infinite; }
 .orbit-3 .planet { animation: counter-spin 16s linear infinite; }
