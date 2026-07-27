@@ -1,0 +1,105 @@
+<!doctype html>
+<html lang="ko">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1" />
+    <meta name="theme-color" content="#07111f" />
+    <meta
+      name="description"
+      content="Flutter에서 Web과 Automation으로 궤도를 넓혀가는 Frontend Developer, Seunghwan Lee."
+    />
+    <title>Seunghwan Lee — Developer in Orbit</title>
+    <link rel="preconnect" href="https://fonts.googleapis.com" />
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+    <link
+      href="https://fonts.googleapis.com/css2?family=Manrope:wght@400;500;600;700;800&family=Roboto+Mono:wght@400;500&display=swap"
+      rel="stylesheet"
+    />
+    <link rel="stylesheet" href="./styles.css" />
+  </head>
+  <body>
+    <div class="cursor-glow" aria-hidden="true"></div>
+    <div class="noise" aria-hidden="true"></div>
+
+    <main>
+      <nav aria-label="주요 링크">
+        <a class="wordmark" href="#top" aria-label="첫 화면으로">SL<span>.</span></a>
+        <div class="nav-links">
+          <a href="https://github.com/seunghwanly?tab=repositories">GitHub</a>
+          <a href="https://medium.com/@seunghwanly">Notes</a>
+          <a class="nav-cta" href="mailto:seunghwanly@gmail.com">Contact ↗</a>
+        </div>
+      </nav>
+
+      <section class="hero" id="top">
+        <div class="hero-copy">
+          <p class="eyebrow"><span></span> FRONTEND DEVELOPER · SEOUL</p>
+          <h1>
+            문제를 따라<br />
+            <em>경계를 넘습니다.</em>
+          </h1>
+          <p class="lede">
+            Flutter로 시작해 Web, Backend, Infrastructure, Automation으로.
+            사용자에게 더 빨리 닿는 피드백 루프를 만듭니다.
+          </p>
+          <div class="hero-actions">
+            <a class="primary" href="#signals">Explore my signals <span>↓</span></a>
+            <p><kbd>MOVE</kbd> 궤도를 움직여 보세요</p>
+          </div>
+        </div>
+
+        <div class="orbit-stage" aria-label="마우스를 따라 반응하는 기술 궤도">
+          <div class="orbit orbit-one" data-depth="1.2"><span class="node flutter">Flutter</span></div>
+          <div class="orbit orbit-two" data-depth=".8"><span class="node web">Web</span></div>
+          <div class="orbit orbit-three" data-depth="1.5"><span class="node automation">Automation</span></div>
+          <div class="core" data-depth=".35">
+            <span>BUILD</span>
+            <strong>↗</strong>
+            <small>SHIP · LEARN · REPEAT</small>
+          </div>
+          <div class="coordinate" aria-hidden="true">X <span id="x-value">00</span> · Y <span id="y-value">00</span></div>
+        </div>
+      </section>
+
+      <section class="signals" id="signals">
+        <header>
+          <p class="eyebrow"><span></span> PUBLIC SIGNALS</p>
+          <h2>코드는 관심사의 궤적입니다.</h2>
+        </header>
+        <div class="signal-grid">
+          <a class="signal-card mint" href="https://github.com/seunghwanly/kakao_maps_flutter">
+            <span class="number">01</span>
+            <div>
+              <p>OPEN SOURCE · FLUTTER</p>
+              <h3>kakao_maps_flutter</h3>
+              <span>Native SDK를 Flutter다운 API로 연결 →</span>
+            </div>
+          </a>
+          <a class="signal-card blue" href="https://github.com/seunghwanly/widgetbook_size_inspector">
+            <span class="number">02</span>
+            <div>
+              <p>DESIGN SYSTEM · TOOLING</p>
+              <h3>widgetbook_size_inspector</h3>
+              <span>디자인과 코드 사이 피드백을 더 짧게 →</span>
+            </div>
+          </a>
+          <a class="signal-card violet" href="https://github.com/seunghwanly/local-flutter-cicd-server">
+            <span class="number">03</span>
+            <div>
+              <p>DELIVERY · AUTOMATION</p>
+              <h3>local-flutter-cicd-server</h3>
+              <span>모바일 배포를 반복 가능한 시스템으로 →</span>
+            </div>
+          </a>
+        </div>
+      </section>
+
+      <footer>
+        <p>Build for people. Automate the repetition.</p>
+        <a href="mailto:seunghwanly@gmail.com">seunghwanly@gmail.com ↗</a>
+      </footer>
+    </main>
+
+    <script src="./script.js"></script>
+  </body>
+</html>
