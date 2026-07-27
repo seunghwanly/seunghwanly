@@ -21,29 +21,15 @@
     <style>
       .sans { font-family: Inter, ui-sans-serif, system-ui, -apple-system, "Segoe UI", sans-serif; }
       .mono { font-family: "SFMono-Regular", Consolas, monospace; }
-      .o1 { transform-origin: 726px 190px; animation: spin 7s linear infinite; }
-      .o2 { transform-origin: 726px 190px; animation: spin 11s linear infinite; }
-      .o3 { transform-origin: 726px 190px; animation: spin 17s linear infinite; }
-      .o4 { transform-origin: 726px 190px; animation: spin 23s linear infinite; }
-      .o5 { transform-origin: 726px 190px; animation: spin 31s linear infinite; }
-      .o6 { transform-origin: 726px 190px; animation: spin 41s linear infinite; }
-      .g1 { transform-origin: 774px 190px; animation: cspin 7s linear infinite; }
-      .g2 { transform-origin: 648px 190px; animation: cspin 11s linear infinite; }
-      .g3 { transform-origin: 726px 138px; animation: cspin 17s linear infinite; }
-      .g4 { transform-origin: 726px 258px; animation: cspin 23s linear infinite; }
-      .g5 { transform-origin: 894px 190px; animation: cspin 31s linear infinite; }
-      .g6 { transform-origin: 528px 190px; animation: cspin 41s linear infinite; }
       .comet { animation: comet 5s ease-in infinite; }
       .pulse { transform-origin: 726px 190px; animation: pulse 2.8s ease-in-out infinite; }
-      @keyframes spin { to { transform: rotate(360deg); } }
-      @keyframes cspin { to { transform: rotate(-360deg); } }
       @keyframes pulse { 50% { transform: scale(1.12); opacity: .72; } }
       @keyframes comet {
         0%, 18% { opacity: 0; transform: translate(-40px,-25px); }
         42% { opacity: 1; }
         70%, 100% { opacity: 0; transform: translate(180px,100px); }
       }
-      @media (prefers-reduced-motion: reduce) { .o1,.o2,.o3,.o4,.o5,.o6,.g1,.g2,.g3,.g4,.g5,.g6,.comet,.pulse { animation: none; } }
+      @media (prefers-reduced-motion: reduce) { .comet,.pulse { animation: none; } }
     </style>
   </defs>
 
@@ -69,12 +55,9 @@
     <ellipse cx="726" cy="190" rx="168" ry="88"/>
     <ellipse cx="726" cy="190" rx="198" ry="112"/>
   </g>
-  <text x="726" y="190" fill="url(#type-glass)" class="sans" font-size="13" font-weight="700" text-anchor="middle" filter="url(#glass-glow)">SEUNGHWANLY</text>
-  <path d="M694 198H758" stroke="url(#type-glass)" stroke-opacity=".6"/>
-  <text x="726" y="209" fill="#737F9B" class="mono" font-size="6" text-anchor="middle" letter-spacing="1.5">CORE</text>
-
   <g class="o1">
     <g class="g1" filter="url(#glass-glow)">
+      <animateMotion dur="7s" repeatCount="indefinite" rotate="0" path="M0 0A48 22 0 1 1-96 0A48 22 0 1 1 0 0"/>
       <g transform="translate(774 190) scale(.82) translate(-774 -190)">
         <path transform="translate(762 178)" fill="#1C65BC" d="M4.105 4.105S9.158 1.58 11.684.316a3.079 3.079 0 0 1 1.481-.315c.766.047 1.677.788 1.677.788L24 9.948v9.789h-4.263V24H9.789l-9-9C.303 14.5 0 13.795 0 13.105c0-.319.18-.818.316-1.105l3.789-7.895z"/>
         <path transform="translate(762 178)" fill="#45A4EE" d="M4.784 4.784v11.787c.002.543.021 1.024.498 1.508L10.204 23h8.533v-4.263L4.784 4.784z"/>
@@ -84,6 +67,7 @@
   </g>
   <g class="o2">
     <g class="g2" filter="url(#glass-glow)">
+      <animateMotion dur="11s" repeatCount="indefinite" rotate="0" path="M0 0A78 36 0 1 0 156 0A78 36 0 1 0 0 0"/>
       <g transform="translate(648 190) scale(.82) translate(-648 -190)">
         <path transform="translate(636 178)" fill="#5AC8F8" d="M14.314 0L2.3 12 6 15.7 21.684.013h-7.357z"/>
         <path transform="translate(636 178)" fill="#3BB5F4" d="M14.328 11.072L7.857 17.53l3.693 3.7 10.15-10.158h-7.37z"/>
@@ -93,6 +77,7 @@
   </g>
   <g class="o3">
     <g class="g3" filter="url(#glass-glow)">
+      <animateMotion dur="17s" repeatCount="indefinite" rotate="0" path="M0 0A108 52 0 1 1 0 104A108 52 0 1 1 0 0"/>
       <g transform="translate(726 138) scale(.82) translate(-726 -138)">
         <g transform="translate(714 126)" fill="none" stroke="#61DAFB" stroke-width="1.35">
           <ellipse cx="12" cy="12" rx="10" ry="3.8"/>
@@ -105,6 +90,7 @@
   </g>
   <g class="o4">
     <g class="g4" filter="url(#glass-glow)">
+      <animateMotion dur="23s" repeatCount="indefinite" rotate="0" path="M0 0A138 68 0 1 0 0-136A138 68 0 1 0 0 0"/>
       <g transform="translate(726 258) scale(.82) translate(-726 -258)">
         <g transform="translate(712.5 244) scale(.24)">
           <path fill="#3776AB" d="M54.919.001C50.335.022 45.958.413 42.106 1.095 30.76 3.099 28.7 7.295 28.7 15.032v10.219h26.813v3.406H18.638c-7.793 0-14.616 4.684-16.75 13.594-2.462 10.213-2.571 16.586 0 27.25 1.906 7.938 6.458 13.594 14.25 13.594h9.219v-12.25c0-8.85 7.657-16.656 16.75-16.656h26.78c7.455 0 13.406-6.138 13.406-13.625V15.032c0-7.266-6.13-12.725-13.406-13.937C64.282.328 59.502-.02 54.919.001zM40.419 8.22c2.77 0 5.031 2.299 5.031 5.125 0 2.816-2.262 5.094-5.031 5.094-2.78 0-5.031-2.278-5.031-5.094 0-2.826 2.252-5.125 5.031-5.125z"/>
@@ -115,6 +101,7 @@
   </g>
   <g class="o5">
     <g class="g5" filter="url(#glass-glow)">
+      <animateMotion dur="31s" repeatCount="indefinite" rotate="0" path="M0 0A168 88 0 1 1-336 0A168 88 0 1 1 0 0"/>
       <g transform="translate(894 190) scale(.82) translate(-894 -190)">
         <path transform="translate(882 178)" fill="#009688" d="M12 .0387C5.3729.0384.0003 5.3931 0 11.9988c-.001 6.6066 5.372 11.9628 12 11.9625 6.628.0003 12.001-5.3559 12-11.9625-.0003-6.6057-5.3729-11.9604-12-11.96m-.829 5.4153h7.55l-7.5805 5.3284h5.1828L5.279 18.5436q2.9466-6.5444 5.892-13.0896"/>
       </g>
@@ -122,6 +109,7 @@
   </g>
   <g class="o6">
     <g class="g6" filter="url(#glass-glow)">
+      <animateMotion dur="41s" repeatCount="indefinite" rotate="0" path="M0 0A198 112 0 1 0 396 0A198 112 0 1 0 0 0"/>
       <g transform="translate(528 190) scale(.656) translate(-528 -190)">
         <image x="501" y="174" width="54" height="32.23" href="assets/aws-logo.png" preserveAspectRatio="xMidYMid meet" style="mix-blend-mode:screen"/>
       </g>
@@ -131,6 +119,9 @@
     <path d="M555 75L510 47" stroke="#C8F7FF" stroke-width="2" stroke-linecap="round"/>
     <circle cx="555" cy="75" r="3" fill="#E9FCFF" filter="url(#glass-glow)"/>
   </g>
+  <text x="726" y="190" fill="url(#type-glass)" class="sans" font-size="13" font-weight="700" text-anchor="middle" filter="url(#glass-glow)">SEUNGHWANLY</text>
+  <path d="M694 198H758" stroke="url(#type-glass)" stroke-opacity=".6"/>
+  <text x="726" y="209" fill="#737F9B" class="mono" font-size="6" text-anchor="middle" letter-spacing="1.5">CORE</text>
   <text x="770" y="350" fill="#7280A4" class="mono" font-size="9" letter-spacing="1.5">AI AUTOMATION / COMET</text>
   </g>
   <rect x=".5" y=".5" width="959" height="379" rx="27.5" stroke="#26365E"/>
