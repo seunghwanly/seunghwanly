@@ -13,7 +13,7 @@
 ## 기술은 목적지가 아닌 궤도입니다
 
 모바일 개발자로 시작해 Web, Backend, Infrastructure, Automation으로 작업 반경을 넓혀 왔습니다.
-태양계의 중심은 언제나 **사용자 가치**. 기술은 문제에 맞춰 선택하고, 더 빠른 피드백 루프를 향해 공전합니다.
+태양계 중심에는 **SEUNGHWANLY**. 기술은 문제에 맞춰 궤도에 올리고, 더 빠른 피드백 루프로 연결합니다.
 
 ```dart
 final seunghwan = Developer(
