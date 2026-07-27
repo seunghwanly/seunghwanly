@@ -1,6 +1,6 @@
 <svg width="960" height="380" viewBox="0 0 960 380" fill="none" xmlns="http://www.w3.org/2000/svg" role="img" aria-labelledby="title desc">
   <title id="title">Seunghwan Lee의 기술 태양계</title>
-  <desc id="desc">SEUNGHWANLY를 중심으로 Flutter, Dart, React, FastAPI, AWS 기술 유리 글자가 공전하는 애니메이션 카드</desc>
+  <desc id="desc">SEUNGHWANLY를 중심으로 Flutter, Dart, React, FastAPI, AWS 기술 심볼이 공전하는 애니메이션 카드</desc>
   <defs>
     <radialGradient id="space" cx="0" cy="0" r="1" gradientTransform="translate(715 180) rotate(137) scale(730 530)" gradientUnits="userSpaceOnUse">
       <stop stop-color="#14224A"/>
@@ -13,21 +13,6 @@
       <stop offset=".47" stop-color="#FFFFFF"/>
       <stop offset=".58" stop-color="#9AA8C2" stop-opacity=".68"/>
       <stop offset="1" stop-color="#E5E9F2" stop-opacity=".86"/>
-    </linearGradient>
-    <linearGradient id="dart-type" x1="0" y1="0" x2="1" y2="0">
-      <stop stop-color="#4E8096"/><stop offset=".46" stop-color="#E8FAFF"/><stop offset=".62" stop-color="#7DD3FC"/><stop offset="1" stop-color="#B6E6FA"/>
-    </linearGradient>
-    <linearGradient id="flutter-type" x1="0" y1="0" x2="1" y2="0">
-      <stop stop-color="#586B9E"/><stop offset=".46" stop-color="#F0F3FF"/><stop offset=".62" stop-color="#8FA8FF"/><stop offset="1" stop-color="#C2CDFF"/>
-    </linearGradient>
-    <linearGradient id="react-type" x1="0" y1="0" x2="1" y2="0">
-      <stop stop-color="#4F8176"/><stop offset=".46" stop-color="#EDFFFB"/><stop offset=".62" stop-color="#79DCC7"/><stop offset="1" stop-color="#B9EDE2"/>
-    </linearGradient>
-    <linearGradient id="api-type" x1="0" y1="0" x2="1" y2="0">
-      <stop stop-color="#74658A"/><stop offset=".46" stop-color="#FAF6FF"/><stop offset=".62" stop-color="#B8A0D9"/><stop offset="1" stop-color="#DACBEC"/>
-    </linearGradient>
-    <linearGradient id="aws-type" x1="0" y1="0" x2="1" y2="0">
-      <stop stop-color="#816F55"/><stop offset=".46" stop-color="#FFF9EF"/><stop offset=".62" stop-color="#D6B98D"/><stop offset="1" stop-color="#EBD8BC"/>
     </linearGradient>
     <filter id="glass-glow" x="-100%" y="-100%" width="300%" height="300%">
       <feDropShadow dx="0" dy="3" stdDeviation="3" flood-color="#02040B" flood-opacity=".72"/>
@@ -99,27 +84,34 @@
 
   <g class="o1">
     <g class="g1" filter="url(#glass-glow)">
-      <text x="782" y="195" fill="url(#dart-type)" stroke="#B9E7F8" stroke-opacity=".48" stroke-width=".5" paint-order="stroke fill" class="sans" font-size="15" font-weight="700" text-anchor="middle">Dart</text>
+      <path transform="translate(770 178)" fill="#0175C2" d="M4.105 4.105S9.158 1.58 11.684.316a3.079 3.079 0 0 1 1.481-.315c.766.047 1.677.788 1.677.788L24 9.948v9.789h-4.263V24H9.789l-9-9C.303 14.5 0 13.795 0 13.105c0-.319.18-.818.316-1.105l3.789-7.895zm.679.679v11.787c.002.543.021 1.024.498 1.508L10.204 23h8.533v-4.263L4.784 4.784zm12.055-.678c-.899-.896-1.809-1.78-2.74-2.643-.302-.267-.567-.468-1.07-.462-.37.014-.87.195-.87.195L6.341 4.105l10.498.001z"/>
     </g>
   </g>
   <g class="o2">
     <g class="g2" filter="url(#glass-glow)">
-      <text x="640" y="195" fill="url(#flutter-type)" stroke="#C8D2FF" stroke-opacity=".48" stroke-width=".5" paint-order="stroke fill" class="sans" font-size="15" font-weight="700" text-anchor="middle">Flutter</text>
+      <path transform="translate(628 178)" fill="#027DFD" d="M14.314 0L2.3 12 6 15.7 21.684.013h-7.357zm.014 11.072L7.857 17.53l6.47 6.47H21.7l-6.46-6.468 6.46-6.46h-7.37z"/>
     </g>
   </g>
   <g class="o3">
     <g class="g3" filter="url(#glass-glow)">
-      <text x="726" y="133" fill="url(#react-type)" stroke="#BCEBDD" stroke-opacity=".48" stroke-width=".5" paint-order="stroke fill" class="sans" font-size="15" font-weight="700" text-anchor="middle">React</text>
+      <g transform="translate(714 116)" fill="none" stroke="#61DAFB" stroke-width="1.35">
+        <ellipse cx="12" cy="12" rx="10" ry="3.8"/>
+        <ellipse cx="12" cy="12" rx="10" ry="3.8" transform="rotate(60 12 12)"/>
+        <ellipse cx="12" cy="12" rx="10" ry="3.8" transform="rotate(120 12 12)"/>
+        <circle cx="12" cy="12" r="1.8" fill="#61DAFB" stroke="none"/>
+      </g>
     </g>
   </g>
   <g class="o4">
     <g class="g4" filter="url(#glass-glow)">
-      <text x="883" y="195" fill="url(#api-type)" stroke="#D9C9EA" stroke-opacity=".48" stroke-width=".5" paint-order="stroke fill" class="sans" font-size="15" font-weight="700" text-anchor="middle">FastAPI</text>
+      <path transform="translate(871 178)" fill="#009688" d="M12 .0387C5.3729.0384.0003 5.3931 0 11.9988c-.001 6.6066 5.372 11.9628 12 11.9625 6.628.0003 12.001-5.3559 12-11.9625-.0003-6.6057-5.3729-11.9604-12-11.96m-.829 5.4153h7.55l-7.5805 5.3284h5.1828L5.279 18.5436q2.9466-6.5444 5.892-13.0896"/>
     </g>
   </g>
   <g class="o5">
     <g class="g5" filter="url(#glass-glow)">
-      <text x="530" y="195" fill="url(#aws-type)" stroke="#E8D3B4" stroke-opacity=".48" stroke-width=".5" paint-order="stroke fill" class="sans" font-size="15" font-weight="700" text-anchor="middle">AWS</text>
+      <text x="530" y="190" fill="#F2F3F3" class="sans" font-size="20" font-weight="700" letter-spacing="-1.5" text-anchor="middle">aws</text>
+      <path d="M512 195C521 201 535 202 546 196" stroke="#FF9900" stroke-width="2.4" stroke-linecap="round"/>
+      <path d="M542 195L547 195L546 200" stroke="#FF9900" stroke-width="1.8" stroke-linecap="round" stroke-linejoin="round"/>
     </g>
   </g>
   <g class="comet">

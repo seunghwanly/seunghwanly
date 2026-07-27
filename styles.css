@@ -207,6 +207,12 @@ kbd { padding: 4px 6px; border: 1px solid #344064; border-radius: 3px; }
   overflow: visible;
   color: rgb(var(--glass));
 }
+.planet svg {
+  width: 100%;
+  height: 100%;
+  fill: currentColor;
+  filter: drop-shadow(0 5px 10px rgba(0,0,0,.52)) drop-shadow(0 0 10px rgba(var(--glass), .24));
+}
 .planet b {
   position: relative;
   z-index: 1;
@@ -229,16 +235,34 @@ kbd { padding: 4px 6px; border: 1px solid #344064; border-radius: 3px; }
     drop-shadow(0 0 9px rgba(var(--glass), .18));
   animation: reflection 7s ease-in-out infinite;
 }
-.planet-dart { --glass: 125, 211, 252; --edge: 186, 230, 250; width: 84px; height: 38px; }
-.planet-flutter { --glass: 143, 168, 255; --edge: 194, 205, 255; width: 112px; height: 42px; }
-.planet-react { --glass: 121, 220, 199; --edge: 185, 237, 225; width: 96px; height: 40px; }
-.planet-api { --glass: 184, 160, 217; --edge: 218, 201, 237; width: 116px; height: 44px; }
-.planet-ops { --glass: 214, 185, 141; --edge: 237, 216, 183; width: 72px; height: 42px; }
-.planet-dart b { animation-delay: -.7s; }
-.planet-flutter b { animation-delay: -2.2s; }
-.planet-react b { animation-delay: -3.8s; }
-.planet-api b { animation-delay: -1.5s; }
-.planet-ops b { animation-delay: -4.6s; }
+.planet-dart { --glass: 1, 117, 194; --edge: 69, 174, 220; width: 48px; height: 48px; }
+.planet-flutter { --glass: 2, 125, 253; --edge: 84, 167, 255; width: 52px; height: 52px; }
+.planet-react { --glass: 97, 218, 251; --edge: 153, 233, 255; width: 54px; height: 54px; }
+.planet-api { --glass: 0, 150, 136; --edge: 84, 201, 190; width: 50px; height: 50px; }
+.planet-ops { --glass: 255, 153, 0; --edge: 255, 190, 92; width: 70px; height: 42px; }
+.aws-mark { position: relative; display: block; width: 68px; height: 40px; }
+.aws-mark b {
+  position: absolute;
+  inset: 0;
+  color: #f2f3f3;
+  background: none;
+  -webkit-text-fill-color: #f2f3f3;
+  -webkit-text-stroke: 0;
+  font: 700 29px/.9 Arial, sans-serif;
+  letter-spacing: -2px;
+  filter: drop-shadow(0 5px 10px rgba(0,0,0,.55));
+  animation: none;
+}
+.aws-mark i {
+  position: absolute;
+  left: 7px;
+  bottom: 1px;
+  width: 45px;
+  height: 12px;
+  border-bottom: 3px solid #ff9900;
+  border-radius: 0 0 70% 55%;
+  rotate: -2deg;
+}
 .orbit-1 .planet { animation: counter-spin 7s linear infinite; }
 .orbit-2 .planet { animation: spin 12s linear infinite; }
 .orbit-3 .planet { animation: counter-spin 18s linear infinite; }
@@ -328,12 +352,12 @@ footer a { color: #9bb0ff; font: 500 10px/1 "Roboto Mono", monospace; letter-spa
   .hero-actions { align-items: flex-start; flex-direction: column; }
   .sun { width: 120px; height: 42px; }
   .sun strong { font-size: 10px; }
-  .planet-dart { width: 58px; height: 28px; }
-  .planet-flutter { width: 76px; height: 30px; }
-  .planet-react { width: 66px; height: 28px; }
-  .planet-api { width: 80px; height: 31px; }
-  .planet-ops { width: 52px; height: 30px; }
-  .planet b { font-size: 14px; }
+  .planet-dart { width: 34px; height: 34px; }
+  .planet-flutter { width: 38px; height: 38px; }
+  .planet-react { width: 38px; height: 38px; }
+  .planet-api { width: 36px; height: 36px; }
+  .planet-ops { width: 52px; height: 32px; }
+  .aws-mark { scale: .72; }
 }
 @media (prefers-reduced-motion: reduce) {
   html { scroll-behavior: auto; }
