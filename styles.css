@@ -233,7 +233,7 @@ kbd { padding: 4px 6px; border: 1px solid #344064; border-radius: 3px; }
 .planet-flutter { --glass: 160, 174, 211; width: 112px; height: 42px; }
 .planet-react { --glass: 170, 204, 194; width: 96px; height: 40px; }
 .planet-api { --glass: 190, 177, 211; width: 116px; height: 44px; }
-.planet-ops { --glass: 210, 193, 171; width: 152px; height: 46px; }
+.planet-ops { --glass: 210, 193, 171; width: 72px; height: 42px; }
 .planet-dart b { animation-delay: -.7s; }
 .planet-flutter b { animation-delay: -2.2s; }
 .planet-react b { animation-delay: -3.8s; }
@@ -332,7 +332,7 @@ footer a { color: #9bb0ff; font: 500 10px/1 "Roboto Mono", monospace; letter-spa
   .planet-flutter { width: 76px; height: 30px; }
   .planet-react { width: 66px; height: 28px; }
   .planet-api { width: 80px; height: 31px; }
-  .planet-ops { width: 106px; height: 32px; }
+  .planet-ops { width: 52px; height: 30px; }
   .planet b { font-size: 14px; }
 }
 @media (prefers-reduced-motion: reduce) {

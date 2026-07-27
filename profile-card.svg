@@ -104,7 +104,7 @@
   </g>
   <g class="o5">
     <g class="g5" filter="url(#glass-glow)">
-      <text x="530" y="195" fill="url(#type-glass)" stroke="#D4DCEB" stroke-opacity=".28" stroke-width=".45" paint-order="stroke fill" class="sans" font-size="14" font-weight="700" text-anchor="middle">AWS · CI/CD</text>
+      <text x="530" y="195" fill="url(#type-glass)" stroke="#D4DCEB" stroke-opacity=".28" stroke-width=".45" paint-order="stroke fill" class="sans" font-size="15" font-weight="700" text-anchor="middle">AWS</text>
     </g>
   </g>
   <g class="comet">
