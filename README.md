@@ -1,11 +1,9 @@
 <div align="center">
-  <a href="https://seunghwanly.github.io/seunghwanly/">
-    <img src="./profile-card.svg" width="100%" alt="Seunghwan Lee — Flutter에서 Web, Automation까지 확장하는 Frontend Developer" />
-  </a>
+  <img src="./profile-card.svg" width="100%" alt="Seunghwan Lee — Flutter에서 Web, Automation까지 확장하는 Frontend Developer" />
 </div>
 
 <div align="center">
-  <sub>위 궤도를 클릭하면 마우스와 터치에 반응하는 인터랙티브 프로필이 열립니다.</sub>
+  <sub>기술 스택이 각자의 궤도를 따라 자동으로 공전합니다.</sub>
 </div>
 
 <br />
