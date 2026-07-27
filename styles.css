@@ -214,12 +214,12 @@ kbd { padding: 4px 6px; border: 1px solid #344064; border-radius: 3px; }
   fill: currentColor;
   filter: drop-shadow(0 5px 10px rgba(0,0,0,.52)) drop-shadow(0 0 10px rgba(var(--glass), .24));
 }
-.planet-dart { --glass: 69, 164, 238; --edge: 28, 101, 188; width: 48px; height: 48px; }
-.planet-flutter { --glass: 90, 200, 248; --edge: 18, 100, 163; width: 52px; height: 52px; }
-.planet-react { --glass: 97, 218, 251; --edge: 153, 233, 255; width: 54px; height: 54px; }
-.planet-python { --glass: 55, 118, 171; --edge: 255, 212, 59; width: 50px; height: 51px; }
-.planet-api { --glass: 0, 150, 136; --edge: 84, 201, 190; width: 50px; height: 50px; }
-.planet-ops { --glass: 247, 247, 247; --edge: 255, 255, 255; width: 82px; height: 49px; }
+.planet-dart { --glass: 69, 164, 238; --edge: 28, 101, 188; width: 38px; height: 38px; }
+.planet-flutter { --glass: 90, 200, 248; --edge: 18, 100, 163; width: 42px; height: 42px; }
+.planet-react { --glass: 97, 218, 251; --edge: 153, 233, 255; width: 43px; height: 43px; }
+.planet-python { --glass: 55, 118, 171; --edge: 255, 212, 59; width: 40px; height: 41px; }
+.planet-api { --glass: 0, 150, 136; --edge: 84, 201, 190; width: 40px; height: 40px; }
+.planet-ops { --glass: 255, 153, 0; --edge: 255, 190, 92; width: 66px; height: 39px; }
 .orbit-1 .planet { animation: counter-spin 7s linear infinite; }
 .orbit-2 .planet { animation: spin 11s linear infinite; }
 .orbit-3 .planet { animation: counter-spin 16s linear infinite; }
@@ -310,12 +310,12 @@ footer a { color: #9bb0ff; font: 500 10px/1 "Roboto Mono", monospace; letter-spa
   .hero-actions { align-items: flex-start; flex-direction: column; }
   .sun { width: 120px; height: 42px; }
   .sun strong { font-size: 10px; }
-  .planet-dart { width: 34px; height: 34px; }
-  .planet-flutter { width: 38px; height: 38px; }
-  .planet-react { width: 38px; height: 38px; }
-  .planet-python { width: 36px; height: 37px; }
-  .planet-api { width: 36px; height: 36px; }
-  .planet-ops { width: 58px; height: 35px; }
+  .planet-dart { width: 28px; height: 28px; }
+  .planet-flutter { width: 31px; height: 31px; }
+  .planet-react { width: 31px; height: 31px; }
+  .planet-python { width: 29px; height: 30px; }
+  .planet-api { width: 29px; height: 29px; }
+  .planet-ops { width: 48px; height: 29px; }
 }
 @media (prefers-reduced-motion: reduce) {
   html { scroll-behavior: auto; }
