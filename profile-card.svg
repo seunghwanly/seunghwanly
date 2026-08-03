@@ -1,9 +1,9 @@
-<svg width="960" height="300" viewBox="0 0 960 300" fill="none" xmlns="http://www.w3.org/2000/svg" role="img" aria-labelledby="title desc">
+<svg width="960" height="240" viewBox="0 0 960 240" fill="none" xmlns="http://www.w3.org/2000/svg" role="img" aria-labelledby="title desc">
   <title id="title">Seunghwan Lee · Product Engineer</title>
-  <desc id="desc">모바일과 웹을 오가며 제품을 만들고 운영하는 Product Engineer 이승환의 프로필 카드. 통합멤버십 고객 188,886명, SDK 15개 버전 배포, 디자인 시스템 PR 48개 병합 성과.</desc>
+  <desc id="desc">모바일과 웹을 오가며 제품을 만들고 운영하는 Product Engineer 이승환의 프로필 카드.</desc>
 
   <defs>
-    <linearGradient id="background" x1="70" y1="18" x2="910" y2="290" gradientUnits="userSpaceOnUse">
+    <linearGradient id="background" x1="70" y1="18" x2="910" y2="230" gradientUnits="userSpaceOnUse">
       <stop stop-color="#F8FAFF"/>
       <stop offset="0.58" stop-color="#EEF1F6"/>
       <stop offset="1" stop-color="#E8EDF4"/>
@@ -33,19 +33,14 @@
       <path d="M28 0H0V28" stroke="#526078" stroke-opacity="0.055"/>
     </pattern>
     <clipPath id="card-clip">
-      <rect width="960" height="300" rx="28"/>
+      <rect width="960" height="240" rx="28"/>
     </clipPath>
     <filter id="orb-blur" x="-40%" y="-60%" width="180%" height="220%">
       <feGaussianBlur stdDeviation="18"/>
     </filter>
-    <filter id="shadow" x="-20%" y="-40%" width="140%" height="180%">
-      <feDropShadow dx="0" dy="10" stdDeviation="15" flood-color="#24304D" flood-opacity="0.09"/>
-    </filter>
     <style>
       .sans { font-family: -apple-system, BlinkMacSystemFont, "Segoe UI", "Noto Sans KR", sans-serif; }
       .eyebrow { font-size: 13px; font-weight: 720; letter-spacing: 2px; }
-      .metric { font-size: 22px; font-weight: 730; letter-spacing: -0.4px; }
-      .metric-label { font-size: 13px; font-weight: 560; }
       @media (prefers-reduced-motion: reduce) {
         .motion-layer { display: none; }
       }
@@ -53,7 +48,7 @@
   </defs>
 
   <g clip-path="url(#card-clip)">
-    <rect width="960" height="300" fill="url(#background)"/>
+    <rect width="960" height="240" fill="url(#background)"/>
     <g class="motion-layer">
       <g filter="url(#orb-blur)">
         <ellipse cx="92" cy="58" rx="250" ry="124" fill="url(#lemon-orb)">
@@ -64,15 +59,15 @@
           <animateTransform attributeName="transform" type="translate" values="-30 -18;-168 42;48 68;-30 -18" dur="12s" repeatCount="indefinite"/>
           <animate attributeName="opacity" values="0.82;0.56;0.76;0.82" dur="9s" repeatCount="indefinite"/>
         </ellipse>
-        <ellipse cx="474" cy="292" rx="390" ry="126" fill="url(#cyan-orb)">
+        <ellipse cx="474" cy="232" rx="390" ry="126" fill="url(#cyan-orb)">
           <animateTransform attributeName="transform" type="translate" values="42 30;-108 -26;126 -54;42 30" dur="14s" repeatCount="indefinite"/>
           <animate attributeName="opacity" values="0.72;0.5;0.8;0.72" dur="10s" repeatCount="indefinite"/>
         </ellipse>
       </g>
-      <rect x="-28" y="-28" width="1016" height="356" fill="url(#digital-grid)">
+      <rect x="-28" y="-28" width="1016" height="296" fill="url(#digital-grid)">
         <animateTransform attributeName="transform" type="translate" from="-28 -28" to="0 0" dur="8s" repeatCount="indefinite"/>
       </rect>
-      <path d="M-40 254C176 176 314 294 520 226C716 161 810 224 1008 146" stroke="#697DF8" stroke-opacity="0.12" stroke-width="1.5" stroke-dasharray="3 14">
+      <path d="M-40 214C176 136 314 254 520 186C716 121 810 184 1008 106" stroke="#697DF8" stroke-opacity="0.12" stroke-width="1.5" stroke-dasharray="3 14">
         <animate attributeName="stroke-dashoffset" from="0" to="-180" dur="6s" repeatCount="indefinite"/>
       </path>
       <path d="M-58 92C132 26 332 134 506 70C680 8 804 96 1018 34" stroke="#55B9C4" stroke-opacity="0.1" stroke-width="1.5" stroke-dasharray="2 17">
@@ -82,35 +77,10 @@
   </g>
 
   <g class="sans">
-    <text x="58" y="52" fill="#5557A9" class="eyebrow">PRODUCT ENGINEER · MOBILE &amp; WEB</text>
-    <circle cx="748" cy="47" r="4" fill="#55B9C4"/>
-    <text x="762" y="52" fill="#526078" font-size="12" font-weight="650" letter-spacing="1">BUILD · SHIP · OPERATE</text>
-
-    <text x="58" y="104" fill="#101827" font-size="40" font-weight="760" letter-spacing="-1.6">SEUNGHWAN LEE</text>
-    <text x="58" y="143" fill="#101827" font-size="23" font-weight="660" letter-spacing="-0.8">모바일과 웹을 오가며 제품을 만들고 운영합니다.</text>
+    <text x="58" y="58" fill="#5557A9" class="eyebrow">PRODUCT ENGINEER · MOBILE &amp; WEB</text>
+    <text x="58" y="120" fill="#101827" font-size="48" font-weight="760" letter-spacing="-1.8">SEUNGHWAN LEE</text>
+    <text x="58" y="168" fill="#101827" font-size="24" font-weight="660" letter-spacing="-0.8">모바일과 웹을 오가며 제품을 만들고 운영합니다.</text>
   </g>
 
-  <g filter="url(#shadow)">
-    <rect x="58" y="178" width="844" height="78" rx="17" fill="#FFFFFF" fill-opacity="0.64"/>
-    <rect x="58.5" y="178.5" width="843" height="77" rx="16.5" stroke="#FFFFFF" stroke-opacity="0.92"/>
-  </g>
-
-  <g class="sans">
-    <g transform="translate(86 0)">
-      <text y="212" fill="#101827" class="metric">188,886</text>
-      <text y="235" fill="#526078" class="metric-label">connected users</text>
-    </g>
-    <path d="M328 195V239" stroke="#D6DEEA"/>
-    <g transform="translate(371 0)">
-      <text y="212" fill="#101827" class="metric">15 releases</text>
-      <text y="235" fill="#526078" class="metric-label">Android · iOS · Web</text>
-    </g>
-    <path d="M614 195V239" stroke="#D6DEEA"/>
-    <g transform="translate(657 0)">
-      <text y="212" fill="#101827" class="metric">48 merged PRs</text>
-      <text y="235" fill="#526078" class="metric-label">Flutter design system</text>
-    </g>
-  </g>
-
-  <rect x="0.5" y="0.5" width="959" height="299" rx="27.5" stroke="#FFFFFF" stroke-opacity="0.84"/>
+  <rect x="0.5" y="0.5" width="959" height="239" rx="27.5" stroke="#FFFFFF" stroke-opacity="0.84"/>
 </svg>
