@@ -1,86 +1,35 @@
 <svg width="960" height="240" viewBox="0 0 960 240" fill="none" xmlns="http://www.w3.org/2000/svg" role="img" aria-labelledby="title desc">
-  <title id="title">Seunghwan Lee · Product Engineer</title>
-  <desc id="desc">모바일과 웹을 오가며 제품을 만들고 운영하는 Product Engineer 이승환의 프로필 카드.</desc>
+  <title id="title">Seunghwan Lee · Frontend Engineer</title>
+  <desc id="desc">모바일과 웹을 오가며 제품을 만들고 운영하는 Frontend Engineer 이승환의 프로필 카드.</desc>
 
-  <defs>
-    <linearGradient id="background" x1="70" y1="18" x2="910" y2="230" gradientUnits="userSpaceOnUse">
-      <stop stop-color="#F8FAFF"/>
-      <stop offset="0.58" stop-color="#EEF1F6"/>
-      <stop offset="1" stop-color="#E8EDF4"/>
-    </linearGradient>
-    <radialGradient id="violet-orb">
-      <stop stop-color="#697DF8" stop-opacity="0.34">
-        <animate attributeName="stop-color" values="#697DF8;#8A70F4;#697DF8" dur="9s" repeatCount="indefinite"/>
-      </stop>
-      <stop offset="0.54" stop-color="#697DF8" stop-opacity="0.13"/>
-      <stop offset="1" stop-color="#697DF8" stop-opacity="0"/>
-    </radialGradient>
-    <radialGradient id="cyan-orb">
-      <stop stop-color="#79DDE1" stop-opacity="0.3">
-        <animate attributeName="stop-color" values="#79DDE1;#65C8DD;#9AE3DA;#79DDE1" dur="12s" repeatCount="indefinite"/>
-      </stop>
-      <stop offset="0.58" stop-color="#79DDE1" stop-opacity="0.12"/>
-      <stop offset="1" stop-color="#79DDE1" stop-opacity="0"/>
-    </radialGradient>
-    <radialGradient id="lemon-orb">
-      <stop stop-color="#FFEB70" stop-opacity="0.26">
-        <animate attributeName="stop-color" values="#FFEB70;#FFD99A;#FFEB70" dur="15s" repeatCount="indefinite"/>
-      </stop>
-      <stop offset="0.56" stop-color="#FFEB70" stop-opacity="0.1"/>
-      <stop offset="1" stop-color="#FFEB70" stop-opacity="0"/>
-    </radialGradient>
-    <pattern id="digital-grid" width="28" height="28" patternUnits="userSpaceOnUse">
-      <path d="M28 0H0V28" stroke="#526078" stroke-opacity="0.055"/>
-    </pattern>
-    <clipPath id="card-clip">
-      <rect width="960" height="240" rx="28"/>
-    </clipPath>
-    <filter id="orb-blur" x="-40%" y="-60%" width="180%" height="220%">
-      <feGaussianBlur stdDeviation="18"/>
-    </filter>
-    <style>
-      .sans { font-family: -apple-system, BlinkMacSystemFont, "Segoe UI", "Noto Sans KR", sans-serif; }
-      .eyebrow { font-size: 13px; font-weight: 720; letter-spacing: 2px; }
-      @media (prefers-reduced-motion: reduce) {
-        .motion-layer { display: none; }
-      }
-    </style>
-  </defs>
+  <style>
+    .sans { font-family: "Pretendard", -apple-system, BlinkMacSystemFont, "Apple SD Gothic Neo", "Segoe UI", "Noto Sans KR", sans-serif; }
+    .still { display: none; }
+    @media (prefers-reduced-motion: reduce) {
+      .motion { display: none; }
+      .still { display: inline; }
+    }
+  </style>
 
-  <g clip-path="url(#card-clip)">
-    <rect width="960" height="240" fill="url(#background)"/>
-    <g class="motion-layer">
-      <g filter="url(#orb-blur)">
-        <ellipse cx="92" cy="58" rx="250" ry="124" fill="url(#lemon-orb)">
-          <animateTransform attributeName="transform" type="translate" values="-40 12;150 -28;36 62;-40 12" dur="16s" repeatCount="indefinite"/>
-          <animate attributeName="opacity" values="0.78;0.48;0.7;0.78" dur="11s" repeatCount="indefinite"/>
-        </ellipse>
-        <ellipse cx="812" cy="72" rx="320" ry="176" fill="url(#violet-orb)">
-          <animateTransform attributeName="transform" type="translate" values="-30 -18;-168 42;48 68;-30 -18" dur="12s" repeatCount="indefinite"/>
-          <animate attributeName="opacity" values="0.82;0.56;0.76;0.82" dur="9s" repeatCount="indefinite"/>
-        </ellipse>
-        <ellipse cx="474" cy="232" rx="390" ry="126" fill="url(#cyan-orb)">
-          <animateTransform attributeName="transform" type="translate" values="42 30;-108 -26;126 -54;42 30" dur="14s" repeatCount="indefinite"/>
-          <animate attributeName="opacity" values="0.72;0.5;0.8;0.72" dur="10s" repeatCount="indefinite"/>
-        </ellipse>
-      </g>
-      <rect x="-28" y="-28" width="1016" height="296" fill="url(#digital-grid)">
-        <animateTransform attributeName="transform" type="translate" from="-28 -28" to="0 0" dur="8s" repeatCount="indefinite"/>
-      </rect>
-      <path d="M-40 214C176 136 314 254 520 186C716 121 810 184 1008 106" stroke="#697DF8" stroke-opacity="0.12" stroke-width="1.5" stroke-dasharray="3 14">
-        <animate attributeName="stroke-dashoffset" from="0" to="-180" dur="6s" repeatCount="indefinite"/>
-      </path>
-      <path d="M-58 92C132 26 332 134 506 70C680 8 804 96 1018 34" stroke="#55B9C4" stroke-opacity="0.1" stroke-width="1.5" stroke-dasharray="2 17">
-        <animate attributeName="stroke-dashoffset" from="0" to="-190" dur="7s" repeatCount="indefinite"/>
-      </path>
+  <rect x="0.5" y="0.5" width="959" height="239" rx="23.5" fill="#F4F8F2" stroke="#E3E7E0"/>
+
+  <g class="motion">
+    <g class="sans">
+    <rect x="53" y="165" width="63" height="11" rx="3" fill="#CFDB7D"><set attributeName="opacity" to="0" begin="0s" end="1s"/><animate attributeName="width" values="0;63;63;63;0" keyTimes="0;0.1;0.75;0.83;1" dur="6s" begin="1s" repeatCount="indefinite" calcMode="spline" keySplines="0.22 1 0.36 1;0 0 1 1;0 0 1 1;0 0 1 1"/><animate attributeName="opacity" values="1;1;1;0;0" keyTimes="0;0.1;0.75;0.83;1" dur="6s" begin="1s" repeatCount="indefinite"/></rect>
+    <rect x="134" y="165" width="25" height="11" rx="3" fill="#BDE2FF"><set attributeName="opacity" to="0" begin="0s" end="1.3s"/><animate attributeName="width" values="0;25;25;25;0" keyTimes="0;0.1;0.75;0.83;1" dur="6s" begin="1.3s" repeatCount="indefinite" calcMode="spline" keySplines="0.22 1 0.36 1;0 0 1 1;0 0 1 1;0 0 1 1"/><animate attributeName="opacity" values="1;1;1;0;0" keyTimes="0;0.1;0.75;0.83;1" dur="6s" begin="1.3s" repeatCount="indefinite"/></rect>
+    <text x="56" y="66" fill="#666666" font-size="13" font-weight="700" letter-spacing="2">FRONTEND ENGINEER · MOBILE &amp; WEB<animate attributeName="opacity" values="0;0;1" keyTimes="0;0.067;1" dur="0.75s" fill="freeze"/><animateTransform attributeName="transform" type="translate" values="0 10;0 10;0 0" keyTimes="0;0.067;1" dur="0.75s" calcMode="spline" keySplines="0 0 1 1;0.22 1 0.36 1" fill="freeze"/></text>
+    <text x="54" y="126" fill="#121212" font-size="50" font-weight="800" letter-spacing="-1">SEUNGHWAN LEE<animate attributeName="opacity" values="0;0;1" keyTimes="0;0.176;1" dur="0.85s" fill="freeze"/><animateTransform attributeName="transform" type="translate" values="0 10;0 10;0 0" keyTimes="0;0.176;1" dur="0.85s" calcMode="spline" keySplines="0 0 1 1;0.22 1 0.36 1" fill="freeze"/></text>
+    <text x="56" y="174" fill="#3D3D3D" font-size="22" font-weight="500" letter-spacing="-0.1"><tspan fill="#121212" font-weight="700">모바일</tspan>과 <tspan fill="#121212" font-weight="700">웹</tspan>을 오가며 제품을 만들고 운영합니다.<animate attributeName="opacity" values="0;0;1" keyTimes="0;0.263;1" dur="0.95s" fill="freeze"/><animateTransform attributeName="transform" type="translate" values="0 10;0 10;0 0" keyTimes="0;0.263;1" dur="0.95s" calcMode="spline" keySplines="0 0 1 1;0.22 1 0.36 1" fill="freeze"/></text>
     </g>
   </g>
 
-  <g class="sans">
-    <text x="58" y="58" fill="#5557A9" class="eyebrow">PRODUCT ENGINEER · MOBILE &amp; WEB</text>
-    <text x="58" y="120" fill="#101827" font-size="48" font-weight="760" letter-spacing="-1.8">SEUNGHWAN LEE</text>
-    <text x="58" y="168" fill="#101827" font-size="24" font-weight="660" letter-spacing="-0.8">모바일과 웹을 오가며 제품을 만들고 운영합니다.</text>
+  <g class="still">
+    <g class="sans">
+    <rect x="53" y="165" width="63" height="11" rx="3" fill="#CFDB7D"></rect>
+    <rect x="134" y="165" width="25" height="11" rx="3" fill="#BDE2FF"></rect>
+    <text x="56" y="66" fill="#666666" font-size="13" font-weight="700" letter-spacing="2">FRONTEND ENGINEER · MOBILE &amp; WEB</text>
+    <text x="54" y="126" fill="#121212" font-size="50" font-weight="800" letter-spacing="-1">SEUNGHWAN LEE</text>
+    <text x="56" y="174" fill="#3D3D3D" font-size="22" font-weight="500" letter-spacing="-0.1"><tspan fill="#121212" font-weight="700">모바일</tspan>과 <tspan fill="#121212" font-weight="700">웹</tspan>을 오가며 제품을 만들고 운영합니다.</text>
+    </g>
   </g>
-
-  <rect x="0.5" y="0.5" width="959" height="239" rx="27.5" stroke="#FFFFFF" stroke-opacity="0.84"/>
 </svg>
